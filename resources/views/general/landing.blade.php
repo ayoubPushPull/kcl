@@ -50,19 +50,19 @@
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu menu-main">
                                             <li class="current-menu-item">
-                                                <a href="{{route('landing')}}"><span>Home</span></a>
+                                                <a href="{{route('landing')}}"><span>Accueil</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ asset('landing/assets/content/agency3/about.html') }}"><span>About us</span></a>
+                                                <a href="{{ asset('landing/assets/content/agency3/about.html') }}"><span>À propos de nous</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ asset('landing/assets/content/agency3/services.html') }}"><span>Services</span></a>
+                                                <a href="{{ asset('landing/assets/content/agency3/services.html') }}"><span>Nos services</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ asset('landing/assets/content/agency3/our-team.html') }}"><span>Our team</span></a>
+                                                <a href="{{ asset('landing/assets/content/agency3/our-team.html') }}"><span>Notre équipe</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ asset('landing/assets/content/agency3/contact.html') }}"><span>Contact</span></a>
+                                                <a href="{{ asset('landing/assets/content/agency3/contact.html') }}"><span>Contactez-nous</span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -84,14 +84,14 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column two-third column_column">
                                             <div class="column_attr clearfix">
-                                                <h2>We engage positive communication of recipients with your brand.</h2>
+                                                <h2>Nous favorisons une communication positive des destinataires avec votre marque.(Mme Kada)</h2>
                                             </div>
                                         </div>
                                         <div class="column mcb-column one column_divider ">
                                             <hr class="no_line" style="margin:0 auto 30px">
                                         </div>
                                         <div class="column mcb-column one-second column_button">
-                                            <a class="button button_right button_size_2 button_theme button_js" href="{{ asset('landing/assets/content/agency3/about.html')}}"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">About us</span></a>
+                                            <a class="button button_right button_size_2 button_theme button_js" href="{{ asset('landing/assets/content/agency3/about.html')}}"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">À propos de nous</span></a>
                                         </div>
                                         <div class="column mcb-column one-second column_image ">
                                             <div class="image_frame image_item no_link scale-with-grid alignright no_border">
@@ -122,8 +122,8 @@
                                         </div>
                                         <div class="column mcb-column two-fifth column_column">
                                             <div class="column_attr clearfix" style=" background-image:url('{{ asset('landing/assets/content/agency3/images/home_agency3_pic3.png')}}'); background-repeat:no-repeat; background-position:left top; padding:120px 40px 40px;">
-                                                <h4 style="font-weight: 400; font-style: italic;">Lorem ipsum dolor sit amet quam. Pellentesque eu arcu erat volutpat. Curabitur vel dui ornare.</h4>
-                                                <h6>Ann Handley</h6>
+                                                <h4 style="font-weight: 400; font-style: italic;">A remplir</h4>
+                                                <h6>Fondatrice Madame Kada</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -136,8 +136,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix">
-                                                <h4 class="themecolor">Our services</h4>
-                                                <h3>We help your brand to be recognizable</h3>
+                                                <h4 class="themecolor">Nos services</h4>
+                                                <h3>Nous atteignons efficacement vos objectifs(Mme Kada)</h3>
                                             </div>
                                         </div>
                                         <div class="column mcb-column one column_divider ">
@@ -149,8 +149,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column  column-margin-10px">
                                             <div class="column_attr clearfix" style=" background-image:url('{{ asset('landing/assets/content/agency3/images/home_agency3_pic4.png')}}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                <h4>Public
-                                                    <br> Relation
+                                                <h4>Caméra de 
+                                                    <br> Surveillance
                                                 </h4>
                                             </div>
                                         </div>
@@ -167,8 +167,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column  column-margin-10px">
                                             <div class="column_attr clearfix" style=" background-image:url('{{ asset('landing/assets/content/agency3/images/home_agency3_pic5.png')}}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                <h4>Events
-                                                    <br> & Meetings</h4>
+                                                <h4>Community 
+                                                    <br> Manager</h4>
                                             </div>
                                         </div>
                                         <div class="column mcb-column one column_column">
@@ -185,8 +185,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column  column-margin-10px">
                                             <div class="column_attr clearfix" style=" background-image:url('{{ asset('landing/assets/content/agency3/images/home_agency3_pic6.png')}}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                <h4>Social Media
-                                                    <br> Marketing
+                                                <h4>Photo & 
+                                                    <br> vidéo
                                                 </h4>
                                             </div>
                                         </div>
@@ -216,6 +216,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <a class="button button_right button_size_2 button_theme button_js" href="{{ asset('landing/assets/content/agency3/about.html')}}"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">Plus de services </span></a>
+                                
                                 <div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_divider ">
@@ -233,7 +235,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix" style=" background-image:url('{{ asset('landing/assets/content/agency3/images/home_agency3_pic9.png')}}'); background-repeat:no-repeat; background-position:left top; padding:120px 40px 40px;">
-                                                <h4 style="font-weight: 400;">Trust our experience that we have gained since 1999.</h4>
+                                                <h4 style="font-weight: 400;"><strong>KADA CALLING LEADS</strong> est un acteur majeur dans le domaine des centres d'appels depuis 2014 .</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -242,17 +244,17 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix">
-                                                <h4 class="themecolor">About us</h4>
-                                                <h3>We achieve your goals effectively</h3>
+                                                <h4 class="themecolor">À propos de nous</h4>
+                                                <h3>Nous atteignons efficacement vos objectifs(Mme Kada)</h3>
                                                 <hr class="no_line" style="margin:0 auto 10px">
                                                 <p>
-                                                    Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel , fringilla sollicitudin orci.
+                                                    petit description (Mme Kada)
                                                 </p>
                                                 <p>
-                                                    Pellentesque lorem augue, fermentum nec nibh et.
+                                                petit description (Mme Kada)
                                                 </p>
                                                 <hr class="no_line" style="margin:0 auto 30px">
-                                                <a class="button button_right button_size_2 button_theme button_js" href="{{ asset('landing/assets/content/agency3/about.html')}}"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">About us</span></a>
+                                                <a class="button button_right button_size_2 button_theme button_js" href="{{ asset('landing/assets/content/agency3/about.html')}}"><span class="button_icon"><i class="icon-right-open-mini"></i></span><span class="button_label">À propos de nous</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -265,8 +267,8 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix align_center">
-                                                <h4 class="themecolor">Our clients</h4>
-                                                <h3>Trust our clients</h3>
+                                                <h4 class="themecolor">Nos clients</h4>
+                                                <h3>Faites confiance à nos clients</h3>
                                             </div>
                                         </div>
                                         <div class="column mcb-column one column_testimonials ">
@@ -278,14 +280,14 @@
                                                         </div>
                                                         <div class="bq_wrapper">
                                                             <blockquote>
-                                                                Donec nunc. Nunc velit sit amet neque vitae eros ultrices et, placerat pulvinar, pede porta neque, a odio et turpis. Fusce eu arcu ac tortor. Cum sociis.
+                                                                avis client1 (Mme Kada) <br>avis client1 (Mme Kada)
                                                             </blockquote>
                                                         </div>
                                                         <div class="hr_dots">
                                                             <span></span><span></span><span></span>
                                                         </div>
                                                         <div class="author">
-                                                            <h5>Jennifer Lee</h5><span class="company"></span>
+                                                            <h5>client1 (Mme Kada)</h5><span class="company"></span>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -294,14 +296,14 @@
                                                         </div>
                                                         <div class="bq_wrapper">
                                                             <blockquote>
-                                                                Sed lobortis quis, convallis non, placerat at, enim. Sed justo fringilla ligula tortor risus, euismod rutrum, libero ipsum dolor sit amet, tortor. Integer a augue ac magna.
+                                                            avis client2 (Mme Kada)<br>avis client2 (Mme Kada)
                                                             </blockquote>
                                                         </div>
                                                         <div class="hr_dots">
                                                             <span></span><span></span><span></span>
                                                         </div>
                                                         <div class="author">
-                                                            <h5>Brandon Ross</h5><span class="company"></span>
+                                                            <h5>client2 (Mme Kada)</h5><span class="company"></span>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -310,14 +312,14 @@
                                                         </div>
                                                         <div class="bq_wrapper">
                                                             <blockquote>
-                                                                Lorem ipsum dolor sit amet eleifend vitae, dictum a, dui. Maecenas eu dui quis lacus. Nulla hendrerit laoreet. Vestibulum ante ipsum primis in turpis faucibus volutpat, velit.
+                                                            avis client3 (Mme Kada)<br>avis client3 (Mme Kada)
                                                             </blockquote>
                                                         </div>
                                                         <div class="hr_dots">
                                                             <span></span><span></span><span></span>
                                                         </div>
                                                         <div class="author">
-                                                            <h5>Katarina Johnes</h5><span class="company"></span>
+                                                            <h5>client3 (Mme Kada)</h5><span class="company"></span>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -352,27 +354,29 @@
                     </div>
                     <div class="column one-fourth">
                         <aside class="widget_text widget widget_custom_html">
-                            <h4>Contact us</h4>
+                            <h4>Contactez-nous</h4>
                             <div class="textwidget custom-html-widget">
                                 <p>
-                                    Nulla augue nec nunc ut malesuada augue quis turpis integer.
+                                Disponible <br> lundi a samedi  <br> 8h-19h (Mme Kada)
                                 </p>
-                                <h4>+61 (0) 3 8376 6284</h4>
+                                <h4>Tél : +212535463293<br>
+Gsm : +212661261803</h4>
                                 <p>
-                                    <a href="#">noreply@envato.com</a>
+                                    <a href="#">alo.oui.call@gmail.com</a>
                                 </p>
                             </div>
                         </aside>
                     </div>
                     <div class="column one-fourth">
                         <aside class="widget_text widget widget_custom_html">
-                            <h4>Localization</h4>
+                            <h4>
+Localisation</h4>
                             <div class="textwidget custom-html-widget">
                                 <p>
-                                    Envato,
-                                    <br> Level 13, 2 Elizabeth St,
-                                    <br> Melbourne, Victoria 3000,
-                                    <br> Australia
+                                Lot.Rizana 
+                                    <br> Imm 9 Bureau N20 
+                                    <br> Av. Mohamed 6, 50050 
+                                    <br> Meknès-Maroc
                                 </p>
                             </div>
                         </aside>
@@ -384,7 +388,7 @@
                     <div class="column one">
                         <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
                         <div class="copyright">
-                            &copy; 2018 BeAgency 3 - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="http://bit.ly/1M6lijQ">BeantownThemes</a>
+                            &copy; 2023 Kada Call Leads  by <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/ayoub-el-boukhari-35264a282/">El Boukhari Ayoub</a>
                         </div>
                     </div>
                 </div>
