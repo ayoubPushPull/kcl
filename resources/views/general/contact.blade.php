@@ -1,4 +1,6 @@
 @extends("layouts.landingLayout")
+@section("title","Contactez-nous")
+
 @section("content")
         <div id="Content">
             <div class="content_wrapper clearfix">

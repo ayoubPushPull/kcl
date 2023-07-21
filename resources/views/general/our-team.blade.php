@@ -1,4 +1,7 @@
-@extends("layouts.landingLayout") @section("content")
+@extends("layouts.landingLayout")
+@section("title","Notre équipe")
+
+@section("content")
 <div id="Content">
     <div class="content_wrapper clearfix">
         <div class="sections_group">
