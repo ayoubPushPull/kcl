@@ -12,7 +12,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column two-third column_column">
                                             <div class="column_attr clearfix">
-                                                <h4 class="themecolor">Services</h4>
+                                                <h4 class="themecolor">Nos services</h4>
                                                 <h2>We help your brand to be recognizable.</h2>
                                             </div>
                                         </div>
@@ -22,7 +22,7 @@
                                         <div class="column mcb-column one column_image">
                                             <div class="image_frame image_item no_link scale-with-grid no_border">
                                                 <div class="image_wrapper">
-                                                    <img class="scale-with-grid" src="images/home_agency3_pic1.png">
+                                                    <img class="scale-with-grid" src="{{ asset('landing/assets/content/images/services_images/services_pic1.png')}}">
                                                 </div>
                                             </div>
                                         </div>

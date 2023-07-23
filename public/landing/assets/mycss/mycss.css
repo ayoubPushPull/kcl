@@ -1,0 +1,72 @@
+.frst_littre {
+    font-weight: bold;
+    font-size: 15px;
+}
+.about_lineheight {
+    line-height: 3;
+}
+/* ABOUT PAGE */
+/* Custom CSS grid styles */
+.custom_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: 0.5fr repeat(4, 1fr);
+    gap: 0; /* Adjust the gap between columns */
+}
+
+.custom_text_left {
+    text-align: left; /* Center align the content within the columns */
+}
+.custom_h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.title_div {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.first_div {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+
+}
+.second_div {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.third_div {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.fourth_div {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.first_div ,.second_div,.third_div,.fourth_div{
+    border-left: 15px #8080802b solid;
+    padding-left: 15px;
+
+
+}
+.img1, .img2 ,.img3 ,.img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) {
+    .custom_container {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+}
+/* END ABOUT PAGE */

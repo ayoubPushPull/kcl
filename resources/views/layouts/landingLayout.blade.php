@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="{{ asset('landing/assets/content/agency3/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('landing/assets/content/images/favicon.ico') }}">
 
     <!-- FONTS -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
@@ -27,12 +27,13 @@
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic'>
-
+    {{-- BOOTSTRAP --}}
     <!-- CSS -->
     <link rel='stylesheet' href="{{ asset('landing/assets/css/global.css') }}">
-    <link rel='stylesheet' href="{{ asset('landing/assets/content/agency3/css/structure.css') }}">
-    <link rel='stylesheet' href="{{ asset('landing/assets/content/agency3/css/agency3.css') }}">
-    <link rel='stylesheet' href="{{ asset('landing/assets/content/agency3/css/custom.css') }}">
+    <link rel='stylesheet' href="{{ asset('landing/assets/content/css/structure.css') }}">
+    <link rel='stylesheet' href="{{ asset('landing/assets/content/css/kcl.css') }}">
+    <link rel='stylesheet' href="{{ asset('landing/assets/content/css/custom.css') }}">
+    <link rel='stylesheet' href="{{ asset('landing/assets/mycss/mycss.css') }}">
 
 </head>
 
@@ -46,21 +47,25 @@
                         <div class="column one">
                             <div class="top_bar_left clearfix">
                                 <div class="logo">
-                                    <a id="logo" href="{{ route('landing') }}" title="BeAgency 3 - BeTheme"
-                                        data-height="60" data-padding="20"><img class="logo-main scale-with-grid"
-                                            src="{{ asset('landing/assets/content/agency3/images/agency3.png') }}"
-                                            data-retina="{{ asset('landing/assets/content/agency3/images/retina-agency3.png') }}"
-                                            data-height="50" alt="agency3"><img class="logo-sticky scale-with-grid"
-                                            src="{{ asset('landing/assets/content/agency3/images/agency3.png') }}"
-                                            data-retina="{{ asset('landing/assets/content/agency3/images/retina-agency3.png') }}"
-                                            data-height="50" alt="agency3"><img class="logo-mobile scale-with-grid"
-                                            src="{{ asset('landing/assets/content/agency3/images/agency3.png') }}"
-                                            data-retina="{{ asset('landing/assets/content/agency3/images/retina-agency3.png') }}"
-                                            data-height="50" alt="agency3"><img
-                                            class="logo-mobile-sticky scale-with-grid"
-                                            src="{{ asset('landing/assets/content/agency3/images/agency3.png') }}"
-                                            data-retina="{{ asset('landing/assets/content/agency3/images/retina-agency3.png') }}"
-                                            data-height="50" alt="agency3"></a>
+                                    <a id="logo" href="{{ route('landing') }}" title="kcl_logo" data-height="60"
+                                        data-padding="20">
+                                        <img class="logo-main scale-with-grid"
+                                            src="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-retina="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-height="50" alt="kcl_logo">
+                                        <img class="logo-sticky scale-with-grid"
+                                            src="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-retina="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-height="50" alt="kcl_logo">
+                                        <img class="logo-mobile scale-with-grid"
+                                            src="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-retina="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-height="50" alt="kcl_logo">
+                                        <img class="logo-mobile-sticky scale-with-grid"
+                                            src="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-retina="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            data-height="50" alt="kcl_logo">
+                                    </a>
                                 </div>
                                 <div class="menu_wrapper">
                                     <nav id="menu">
@@ -72,13 +77,13 @@
                                                 <a href="{{ route('about') }}"><span>À propos de nous</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('services') }}"><span>Nos services</span></a>
+                                                 <a href="#"{{--{{ route('services') }}--}}><span>Nos services</span></a>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a href="{{ route('our-team') }}"><span>Notre équipe</span></a>
-                                            </li>
+                                            </li> -->
                                             <li>
-                                                <a href="{{ route('contact') }}"><span>Contactez-nous</span></a>
+                                                <a href="#"{{--{{ route('contact') }}--}}><span>Contactez-nous</span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -100,14 +105,15 @@
                                 <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
                                     <div class="image_wrapper">
                                         <img class="scale-with-grid"
-                                            src="{{ asset('landing/assets/content/agency3/images/agency3.png') }}"
-                                            width="100">
+                                            src="{{ asset('landing/assets/content/images/kcl_logo.png') }}"
+                                            width="100" alt="kcl_logo">
                                     </div>
                                 </div>
                                 <hr class="no_line" style="margin: 0 auto 80px">
                                 <p style="font-size: 30px; line-height: 30px">
                                     <a style="color: #4767aa;" href="#"><i class="icon-facebook-circled"></i></a>
-                                    <a style="color: #1da1f2;" href="#"><i class="icon-twitter-circled"></i></a>
+                                    <a style="color: #1da1f2;" href="#"><i
+                                            class="icon-twitter-circled"></i></a>
                                     <a style="color: #1da1f2;" href="#"><i
                                             class="icon-linkedin-circled"></i></a>
                                 </p>
@@ -149,7 +155,7 @@
                         <a id="back_to_top" class="button button_js" href="#"><i
                                 class="icon-up-open-big"></i></a>
                         <div class="copyright">
-                            &copy; 2023 Kada Call Leads by <a target="_blank" rel="nofollow"
+                            &copy; 2023 Kada Calling Leads by <a target="_blank" rel="nofollow"
                                 href="https://www.linkedin.com/in/ayoub-el-boukhari-35264a282/">El Boukhari Ayoub</a>
                         </div>
                     </div>
@@ -176,6 +182,10 @@
     <script src="{{ asset('landing/assets/js/animations/animations.js') }}"></script>
     <script src="{{ asset('landing/assets/js/translate3d.js') }}"></script>
     <script src="{{ asset('landing/assets/js/scripts.js') }}"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
