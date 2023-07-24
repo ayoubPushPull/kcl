@@ -64,7 +64,6 @@
     align-items: center;
 }
 
-/* Responsive styles for smaller screens */
 @media screen and (max-width: 767px) {
     .custom_container {
         grid-template-columns: 1fr; /* Single column for smaller screens */
@@ -72,14 +71,14 @@
 }
 /* END ABOUT PAGE */
 /*  LANDING PAGE */
-.titre_landing_page{
+.titre_landing_page {
     font-size: 16px;
 }
-.position_landing_page{
-    position:relative;
+.position_landing_page {
+    position: relative;
     top: -42px;
 }
-.phrase_eng_fr{
+.phrase_eng_fr {
     line-height: 0.5;
 }
 .word_orange {
@@ -87,15 +86,42 @@
     font-weight: bolder;
 }
 
-.calling_word{
-    font-family: 'Walter Haettenschweiler',sans-serif;
+.calling_word {
+    font-family: "Walter Haettenschweiler", sans-serif;
     font-weight: bolder;
 }
-.control_height{
+.control_height {
     height: 282px;
 }
-.nos_service_landing{
+.nos_service_landing {
     font-size: 32px;
+    margin-bottom: 8%;
+}
+.container_grid_landing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.grid_item_landing {
+    display: flex;
+    flex-direction: column;
 }
 
+.grid_item_left{
+    padding-top: 10px;
+
+}
+.savoir_plus {
+    align-self: flex-end;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container_grid_landing {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
 /* END LANDING PAGE */

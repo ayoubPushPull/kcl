@@ -79,7 +79,7 @@
                                             <li>
                                                  <a href="{{ route('services') }}"><span>Nos services</span></a>
                                             </li>
-                                            
+
                                             <li>
                                                 <a href="#"{{--{{ route('contact') }}--}}><span>Contactez-nous</span></a>
                                             </li>
@@ -95,7 +95,7 @@
         </div>
         @yield('content')
         <footer id="Footer" class="clearfix">
-            <div class="widgets_wrapper" style="padding:70px 0 20px;">
+            <div class="widgets_wrapper" style="padding:20px 0 20px;">
                 <div class="container">
                     <div class="column one-second">
                         <aside class="widget_text widget widget_custom_html">
@@ -109,7 +109,7 @@
                                 </div>
                                 <hr class="no_line" style="margin: 0 auto 80px">
                                 <p style="font-size: 30px; line-height: 30px">
-                                    <a style="color: #4767aa;" href="#"><i class="icon-facebook-circled"></i></a>
+                                    <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"><i class="icon-facebook-circled"></i></a>
                                     <a style="color: #1da1f2;" href="#"><i
                                             class="icon-twitter-circled"></i></a>
                                     <a style="color: #1da1f2;" href="#"><i
