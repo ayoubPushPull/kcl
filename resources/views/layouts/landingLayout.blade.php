@@ -79,9 +79,7 @@
                                             <li>
                                                  <a href="{{ route('services') }}"><span>Nos services</span></a>
                                             </li>
-                                            <!-- <li>
-                                                <a href="{{ route('our-team') }}"><span>Notre équipe</span></a>
-                                            </li> -->
+                                            
                                             <li>
                                                 <a href="#"{{--{{ route('contact') }}--}}><span>Contactez-nous</span></a>
                                             </li>

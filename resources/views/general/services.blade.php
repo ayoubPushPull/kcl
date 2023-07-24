@@ -38,7 +38,7 @@
                                         <div class="column mcb-column one column_image">
                                             <div class="image_frame image_item no_link scale-with-grid no_border">
                                                 <div class="image_wrapper">
-                                                    <img class="scale-with-grid" src="{{ asset('landing/assets/content/images/services_images/service_pic2.jpg')}}">
+                                                    <img class="scale-with-grid" src="{{ asset('landing/assets/content/images/services_images/service_pic2.jpg')}}" alt="service_pic2.jpg" style="width:10%;height:10%;">
                                                 </div>
                                             </div>
                                         </div>

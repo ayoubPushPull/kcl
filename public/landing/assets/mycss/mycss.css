@@ -32,9 +32,6 @@
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-
-
-
 }
 .second_div {
     grid-row-start: 3;
@@ -51,13 +48,17 @@
     grid-column-start: 2;
     grid-column-end: 3;
 }
-.first_div ,.second_div,.third_div,.fourth_div{
+.first_div,
+.second_div,
+.third_div,
+.fourth_div {
     border-left: 15px #8080802b solid;
     padding-left: 15px;
-
-
 }
-.img1, .img2 ,.img3 ,.img4{
+.img1,
+.img2,
+.img3,
+.img4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,3 +71,30 @@
     }
 }
 /* END ABOUT PAGE */
+/*  LANDING PAGE */
+.titre_landing_page{
+    font-size: 16px;
+}
+.position_landing_page{
+    position:relative;
+    top: -42px;
+}
+.phrase_eng_fr{
+    line-height: 0.5;
+}
+.word_orange {
+    color: #ff7f00;
+    font-weight: bolder;
+}
+
+.calling_word{
+    font-family: 'Walter Haettenschweiler',sans-serif;
+    font-weight: bolder;
+}
+.control_height{
+    height: 282px;
+}
+.nos_service_landing{
+    font-size: 32px;
+}
+/* END LANDING PAGE */
