@@ -77,7 +77,7 @@
                                                 <a href="{{ route('about') }}"><span>À propos de nous</span></a>
                                             </li>
                                             <li>
-                                                 <a href="#"{{--{{ route('services') }}--}}><span>Nos services</span></a>
+                                                 <a href="{{ route('services') }}"><span>Nos services</span></a>
                                             </li>
                                             <!-- <li>
                                                 <a href="{{ route('our-team') }}"><span>Notre équipe</span></a>
