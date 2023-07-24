@@ -27,13 +27,10 @@
                                             </h2>
                                         </div>
                                     </div>
-                                    <div class="column mcb-column one column_divider ">
-                                        <hr class="no_line" style="margin:0 auto 30px">
-                                    </div>
-
 
                                 </div>
                             </div>
+                            <hr>
 
                             <div class="wrap mcb-wrap one valign-top move-up clearfix" style="margin-top:-250px"
                                 data-mobile="no-up">
@@ -57,176 +54,15 @@
                                             <h4 class="themecolor nos_service_landing">Nos services</h4>
                                         </div>
                                     </div>
-                                    <div class="column mcb-column one column_divider ">
-                                        <hr class="no_line" style="margin:0 auto 30px">
-                                    </div>
                                 </div>
                             </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/headphone.png') }}');
-                                            background-repeat:no-repeat;
-                                            background-position:left top;
-                                            padding:0 0 10px 80px;
-                                            ">
-                                            <h4>Centre
-                                                <br> D'appel
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Notre centre d'appel est doté d'une équipe de professionnels hautement
-                                                qualifiés et dévoués, formés pour répondre aux besoins spécifiques de nos
-                                                clients.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/database.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                            <h4>Traitement
-                                                <br> des bases de données
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Que vous ayez une petite entreprise ou une grande organisation, nous
-                                                comprenons l'importance de disposer de données précises, fiables et bien
-                                                organisées.
-
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/dev.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                            <h4>Développement d'applications
-                                                <br> Web et Mobiles
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Notre équipe talentueuse de concepteurs et de développeurs web et mobiles
-                                                est prête à transformer votre vision en réalité.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/camera.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                            <h4>Caméras
-                                                <br> de surveillance
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Lorsque vous choisissez notre service d'installation de caméras de
-                                                surveillance, vous pouvez vous attendre à une expertise professionnelle de
-                                                bout en bout.
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/manager.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                            <h4>Community
-                                                <br> Manager
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Lorsque vous travaillez avec nous, nous commençons par comprendre vos
-                                                objectifs commerciaux, votre identité de marque et votre public cible. En
-                                                nous basant sur ces informations, nous élaborons une stratégie de gestion de
-                                                communauté sur mesure qui répond à vos besoins spécifiques.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 4% 0 0">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_column  column-margin-10px">
-                                        <div class="column_attr clearfix"
-                                            style=" background-image:url('{{ asset('landing/assets/content/images/video.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                            <h4>Photo <br>& vidéo
-
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="column mcb-column one column_column">
-                                        <div class="column_attr clearfix">
-                                            <p>
-                                                Bienvenue à notre service de photos d'entreprise et de réalisation de vidéos
-                                                institutionnelles et publicitaires ! Nous sommes là pour capturer des
-                                                moments précieux et raconter des histoires visuelles convaincantes pour
-                                                promouvoir votre entreprise ou votre marque.
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class="" href="#"><span class="button_icon"><i
-                                                    class="icon-right-open-mini"></i></span><span
-                                                class="button_label">Savoir plus</span></a>
-                                    </div>
-                                </div>
+                            <div>
+                                <div>fiiiiiiiiil</div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
                             </div>
 
 
@@ -258,53 +94,54 @@
                                             <ul class="testimonials_slider_ul">
                                                 <li>
                                                     <div class="single-photo-img">
-                                                        <img src="{{ asset('landing/assets/content/images/home_ourteam_1-85x85.jpg') }}"
-                                                            class="scale-with-grid wp-post-image">
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            avis client1 (Mme Kada) <br>avis client1 (Mme Kada)
+                                                            Nous remercier KCL pour le traitement efficace de nos bases de données ainsi que la création de notre application clients.
+Cela nous a permis d'améliorer considérablement la qualité de nos services et de répondre aux besoins de nos clients de manière plus rapide et plus efficace. Votre professionnalisme, votre expertise ainsi que votre excellent service client ont été très appréciés tout au long de notre collaboration. Encore une fois, merci pour votre excellent travail.
+
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
                                                         <span></span><span></span><span></span>
                                                     </div>
                                                     <div class="author">
-                                                        <h5>client1 (Mme Kada)</h5><span class="company"></span>
+                                                        <h5>R.W. </h5><span class="company"></span>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="single-photo-img">
-                                                        <img src="{{ asset('landing/assets/content/images/home_ourteam_2-85x85.jpg') }}"
-                                                            class="scale-with-grid wp-post-image">
+
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            avis client2 (Mme Kada)<br>avis client2 (Mme Kada)
+                                                            En tant que client fidèle de KCL depuis plus de 10 ans, je ne peux que recommander leurs services. Leur centre d'appel est composé d'une équipe de professionnels hautement qualifiés et dévoués, qui prennent le temps de comprendre les besoins spécifiques de chaque client. Leur expertise en matière de communication et de service client est inégalée, et leur approche personnalisée a permis à notre entreprise de maintenir une relation de confiance avec nos clients.
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
                                                         <span></span><span></span><span></span>
                                                     </div>
                                                     <div class="author">
-                                                        <h5>client2 (Mme Kada)</h5><span class="company"></span>
+                                                        <h5>N.P.</h5><span class="company"></span>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="single-photo-img">
-                                                        <img src="{{ asset('landing/assets/content/images/home_ourteam_3-85x85.jpg') }}"
-                                                            class="scale-with-grid wp-post-image">
+
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            avis client3 (Mme Kada)<br>avis client3 (Mme Kada)
+                                                            Nous tenons à exprimer nos sincères remerciements à l'équipe de KCL pour leur incroyable professionnalisme et service exceptionnel. Ils ont installé des caméras chez moi et dans mon magasin avec une rapidité et une expertise impressionnante. Leur installation intelligente garantit la sécurité de nos biens et leur présence rassure notre clientèle.
+De plus, chaque fois que nous avons eu recours à leur assistance, ils ont trouvé une solution à nos problèmes, ce qui témoigne de leur expérience et de leur savoir-faire.
+En bref, nous sommes ravis de notre collaboration avec KCL et nous les recommandons vivement à tous ceux qui cherchent des solutions de sécurité fiables et professionnelles.
+
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
                                                         <span></span><span></span><span></span>
                                                     </div>
                                                     <div class="author">
-                                                        <h5>client3 (Mme Kada)</h5><span class="company"></span>
+                                                        <h5>GH.R.</h5><span class="company"></span>
                                                     </div>
                                                 </li>
                                             </ul>
