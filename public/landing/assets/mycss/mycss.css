@@ -117,7 +117,17 @@
     align-self: flex-end;
 }
 
+.inside-grid-cells-first{
+    height:26%;
+}
+.inside-grid-cells-second{
+    height:64%;
 
+}
+.inside-grid-cells-third{
+    height:10%;
+
+}
 @media screen and (max-width: 767px) {
     .container_grid_landing {
         grid-template-columns: 1fr;

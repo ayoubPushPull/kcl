@@ -110,9 +110,9 @@
                                 <hr class="no_line" style="margin: 0 auto 80px">
                                 <p style="font-size: 30px; line-height: 30px">
                                     <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"><i class="icon-facebook-circled"></i></a>
-                                    <a style="color: #1da1f2;" href="#"><i
+                                    <a style="color: #1da1f2;" href="https://twitter.com/OuiAlo"><i
                                             class="icon-twitter-circled"></i></a>
-                                    <a style="color: #1da1f2;" href="#"><i
+                                    <a style="color: #1da1f2;" href="https://www.linkedin.com/in/bouamara-adele-5a53519b/"><i
                                             class="icon-linkedin-circled"></i></a>
                                 </p>
                             </div>

@@ -54,7 +54,7 @@
                                             <h4 class="themecolor nos_service_landing">Nos services</h4>
                                             <div class="container_grid_landing">
                                                 <div class="grid_item_landing grid_item_left">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/headphone.png') }}');
                                                             background-repeat:no-repeat;
@@ -66,7 +66,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Notre centre d'appel est doté d'une équipe de professionnels
@@ -77,7 +77,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{ route("srv_centre_d'appel") }}" style="text-decoration: none"><span
                                                                 class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
@@ -85,7 +85,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/dev.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
                                                             <h4>Développement d'applications
@@ -93,7 +93,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Notre équipe talentueuse de concepteurs et de développeurs
@@ -102,14 +102,14 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_dev_web_mobile')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">Savoir plus</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing grid_item_left">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/camera.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
                                                             <h4>Caméras
@@ -117,7 +117,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Lorsque vous choisissez notre service d'installation de
@@ -129,14 +129,14 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_camera_surveillance')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">Savoir plus</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/database.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
                                                             <h4>Traitement
@@ -144,7 +144,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Que vous ayez une petite entreprise ou une grande
@@ -156,8 +156,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_traitement')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">Savoir plus</span>
@@ -165,7 +164,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing grid_item_left">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/video.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
                                                             <h4>Photo <br>& vidéo
@@ -173,7 +172,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Bienvenue à notre service de photos d'entreprise et de
@@ -187,14 +186,14 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_photo_video')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">Savoir plus</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
-                                                    <div class="column mcb-column one column_column  column-margin-10px">
+                                                    <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/manager.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
                                                             <h4>Community
@@ -202,7 +201,7 @@
                                                             </h4>
                                                         </div>
                                                     </div>
-                                                    <div class="column mcb-column one column_column">
+                                                    <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
                                                                 Lorsque vous travaillez avec nous, nous commençons par
@@ -215,7 +214,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="savoir_plus">
+                                                    <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route("srv_community_manager")}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">Savoir plus</span></a>
