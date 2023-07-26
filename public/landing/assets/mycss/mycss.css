@@ -109,24 +109,21 @@
     flex-direction: column;
 }
 
-.grid_item_left{
+.grid_item_left {
     padding-top: 10px;
-
 }
 .savoir_plus {
     align-self: flex-end;
 }
 
-.inside-grid-cells-first{
-    height:26%;
+.inside-grid-cells-first {
+    height: 26%;
 }
-.inside-grid-cells-second{
-    height:64%;
-
+.inside-grid-cells-second {
+    height: 64%;
 }
-.inside-grid-cells-third{
-    height:10%;
-
+.inside-grid-cells-third {
+    height: 10%;
 }
 @media screen and (max-width: 767px) {
     .container_grid_landing {
@@ -135,3 +132,28 @@
     }
 }
 /* END LANDING PAGE */
+/*---------------------------CENTRE D'APPEL-----------------------------*/
+.control_height_centre {
+    height: 130px;
+}
+.container_grid_centre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.grid_item_centre_text {
+    grid-column: 1/2 span;
+}
+.grid_item_centre {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+.undertext{
+    background-color: #EBECED;
+}
+
+/*---------------------------------END----------------------------------*/
