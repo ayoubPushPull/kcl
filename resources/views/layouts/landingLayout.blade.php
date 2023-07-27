@@ -180,6 +180,7 @@
     <script src="{{ asset('landing/assets/js/animations/animations.js') }}"></script>
     <script src="{{ asset('landing/assets/js/translate3d.js') }}"></script>
     <script src="{{ asset('landing/assets/js/scripts.js') }}"></script>
+    <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
 
 
 <!-- Latest compiled JavaScript -->
