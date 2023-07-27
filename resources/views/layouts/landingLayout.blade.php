@@ -76,12 +76,23 @@
                                             <li>
                                                 <a href="{{ route('about') }}"><span>À propos de nous</span></a>
                                             </li>
-                                            <li>
-                                                 <a href="{{ route('services') }}"><span>Nos services</span></a>
+
+                                            <li class="menu-custom-children">
+                                                <a href="#"><span>Nos services</span></a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Centre D'appel</a></li>
+                                                    <li><a href="#">Creation Web et Mobiles</a></li>
+                                                    <li><a href="#">Caméras de surveillance</a></li>
+                                                    <li><a href="#">Traitement des bases de données</a></li>
+                                                    <li><a href="#">Photo & vidéo</a></li>
+                                                    <li><a href="#">Community Manager</a></li>
+                                                    <!-- Add more services here as needed -->
+                                                </ul>
                                             </li>
 
+
                                             <li>
-                                                <a href="#"{{--{{ route('contact') }}--}}><span>Contactez-nous</span></a>
+                                                <a href="#"{{-- {{ route('contact') }} --}}><span>Contactez-nous</span></a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -109,10 +120,12 @@
                                 </div>
                                 <hr class="no_line" style="margin: 0 auto 80px">
                                 <p style="font-size: 30px; line-height: 30px">
-                                    <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"><i class="icon-facebook-circled"></i></a>
+                                    <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"><i
+                                            class="icon-facebook-circled"></i></a>
                                     <a style="color: #1da1f2;" href="https://twitter.com/OuiAlo"><i
                                             class="icon-twitter-circled"></i></a>
-                                    <a style="color: #1da1f2;" href="https://www.linkedin.com/in/bouamara-adele-5a53519b/"><i
+                                    <a style="color: #1da1f2;"
+                                        href="https://www.linkedin.com/in/bouamara-adele-5a53519b/"><i
                                             class="icon-linkedin-circled"></i></a>
                                 </p>
                             </div>
@@ -183,8 +196,8 @@
     <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
 
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
