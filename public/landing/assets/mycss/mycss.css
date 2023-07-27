@@ -179,11 +179,6 @@ body:focus {
     background: #ffffff;
     padding: 20px;
 }
-/* //////////////////////typing animaion/////////////////// */
-.typing-text.hidden {
-    visibility: hidden;
-    opacity: 0;
-  }
 
 
 /*---------------------------------END----------------------------------*/
