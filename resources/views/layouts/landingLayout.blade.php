@@ -34,6 +34,7 @@
     <link rel='stylesheet' href="{{ asset('landing/assets/content/css/kcl.css') }}">
     <link rel='stylesheet' href="{{ asset('landing/assets/content/css/custom.css') }}">
     <link rel='stylesheet' href="{{ asset('landing/assets/mycss/mycss.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 
@@ -80,12 +81,17 @@
                                             <li class="menu-custom-children">
                                                 <a href="#"><span>Nos services</span></a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="#">Centre D'appel</a></li>
-                                                    <li><a href="#">Creation Web et Mobiles</a></li>
-                                                    <li><a href="#">Caméras de surveillance</a></li>
-                                                    <li><a href="#">Traitement des bases de données</a></li>
-                                                    <li><a href="#">Photo & vidéo</a></li>
-                                                    <li><a href="#">Community Manager</a></li>
+                                                    <li><a href="{{ route("srv_centre_d'appel") }}">Centre D'appel</a>
+                                                    </li>
+                                                    <li><a href="{{ route('srv_dev_web_mobile') }}">Creation Web et
+                                                            Mobiles</a></li>
+                                                    <li><a href="{{ route('srv_camera_surveillance') }}">Caméras de
+                                                            surveillance</a></li>
+                                                    <li><a href="{{ route('srv_traitement') }}">Traitement des bases de
+                                                            données</a></li>
+                                                    <li><a href="{{ route('srv_photo_video') }}">Photo & vidéo</a></li>
+                                                    <li><a href="{{ route('srv_community_manager') }}">Community
+                                                            Manager</a></li>
                                                     <!-- Add more services here as needed -->
                                                 </ul>
                                             </li>
@@ -93,6 +99,17 @@
 
                                             <li>
                                                 <a href="#"{{-- {{ route('contact') }} --}}><span>Contactez-nous</span></a>
+                                            </li>
+                                            <li class="menu-custom-children">
+                                                
+                                                Language: <select onchange="changeLanguage(this.value)">
+                                                    <option
+                                                        {{ session()->has('lang_code') ? (session()->get('lang_code') == 'fr' ? 'selected' : '') : '' }}
+                                                        value="fr">fr</option>
+                                                    <option
+                                                        {{ session()->has('lang_code') ? (session()->get('lang_code') == 'en' ? 'selected' : '') : '' }}
+                                                        value="en">eng</option>
+                                                </select>
                                             </li>
                                         </ul>
                                     </nav>
@@ -198,7 +215,12 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script>
+        function changeLanguage(lang) {
+            window.location = '{{ url("change-language") }}/' + lang
+        }
+    </script>
+    <script></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\languageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,9 +38,7 @@ Route::get("/services/dev_web_mobile", function () {
     return view("general.services.services_dev_web_mobile");
 })->name("srv_dev_web_mobile");
 
-Route::get("/services/camera_surveillance", function () {
-    return view("general.services.services_surveillance");
-})->name("srv_camera_surveillance");
+
 
 Route::get("/services/community_manager", function () {
     return view("general.services.services_community_manager");
@@ -53,3 +51,10 @@ Route::get("/services/photo_video", function () {
 Route::get("/services/traitement", function () {
     return view("general.services.services_traitement");
 })->name("srv_traitement");
+/////languages
+Route::group(['middleware'=>'Language'],function(){
+    Route::get("/services/camera_surveillance", function () {
+        return view("general.services.services_surveillance");
+    })->name("srv_camera_surveillance");
+    Route::get('/change-language/{lang}', [languageController::class, 'changeLang'])->middleware('Language');
+});
