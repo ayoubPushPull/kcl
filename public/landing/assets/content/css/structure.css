@@ -15,10 +15,10 @@
 /*
 |--------------------------------------------------------------------------
 |  1.0 Grid
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 
@@ -289,10 +289,10 @@ body:not(.template-slider) #Content {
 /*
 |--------------------------------------------------------------------------
 |  2.0 Layout
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 
@@ -636,7 +636,7 @@ body.nice-scroll:not(.layout-boxed) {
 #Sliding-top.active a.sliding-top-control .plus {
 	display: none;
 }
-/* 
+/*
 	#Sliding-top .widgets_wrapper .widget ul { margin: 0 0 15px 30px; line-height: 21px; }
 	#Sliding-top .widgets_wrapper .widget ul li { list-style:disc outside; padding: 3px 0; }
 	*/
@@ -948,7 +948,7 @@ body.nice-scroll:not(.layout-boxed) {
 /* #Owl-pagination
 ================================================== */
 
-/* #NEXT / PREV NAVI 
+/* #NEXT / PREV NAVI
 ================================================== */
 
 /* Section: Highlight
@@ -1502,7 +1502,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Top_bar .menu li ul {
 	position: absolute;
 	left: 0px;
-	top: 100%;
+	top: 80%;
 	z-index: 205;
 	margin: 0;
 	display: none;
@@ -1511,7 +1511,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	background-position: left top;
 }
 #Top_bar .menu li>ul {
-	box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.03);
+	box-shadow: 2px 2px 2px 0 rgba(255, 255, 255, 0.03);
 	-webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.03);
 }
 #Top_bar .menu li ul li {
@@ -4250,10 +4250,10 @@ body.layout-boxed .vc_row-no-padding .wpb_column {
 /*
 |--------------------------------------------------------------------------
 |  3.0 Responsive-1240
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 
@@ -5150,10 +5150,10 @@ html, body {
 /*
 |--------------------------------------------------------------------------
 |  4.0 Responsive
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 

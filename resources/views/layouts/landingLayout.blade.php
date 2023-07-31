@@ -72,44 +72,44 @@
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu menu-main">
                                             <li class="current-menu-item">
-                                                <a href="{{ route('landing') }}"><span>Accueil</span></a>
+                                                <a href="{{ route('landing') }}"><span>{{ __('message.layout.accueil') }}</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('about') }}"><span>À propos de nous</span></a>
+                                                <a href="{{ route('about') }}"><span>{{ __('message.layout.propos_nous') }}</span></a>
                                             </li>
 
                                             <li class="menu-custom-children">
-                                                <a href="#"><span>Nos services</span></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route("srv_centre_d'appel") }}">Centre D'appel</a>
+                                                <a href="#"><span>{{ __('message.layout.nos_services') }}</span></a>
+                                                <ul class="sub-menu" >
+                                                    <li><a href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
-                                                    <li><a href="{{ route('srv_dev_web_mobile') }}">Creation Web et
-                                                            Mobiles</a></li>
-                                                    <li><a href="{{ route('srv_camera_surveillance') }}">Caméras de
-                                                            surveillance</a></li>
-                                                    <li><a href="{{ route('srv_traitement') }}">Traitement des bases de
-                                                            données</a></li>
-                                                    <li><a href="{{ route('srv_photo_video') }}">Photo & vidéo</a></li>
-                                                    <li><a href="{{ route('srv_community_manager') }}">Community
-                                                            Manager</a></li>
+                                                    <li><a href="{{ route('srv_dev_web_mobile') }}">{{ __('message.layout.website') }}
+                                                            </a></li>
+                                                    <li><a href="{{ route('srv_camera_surveillance') }}">{{ __('message.layout.camera') }}
+                                                            </a></li>
+                                                    <li><a href="{{ route('srv_traitement') }}">{{ __('message.layout.database') }}</a></li>
+                                                    <li><a href="{{ route('srv_photo_video') }}">{{ __('message.layout.photo_video') }}</a></li>
+                                                    <li><a href="{{ route('srv_community_manager') }}">{{ __('message.layout.manager') }}</a></li>
                                                     <!-- Add more services here as needed -->
                                                 </ul>
                                             </li>
 
 
                                             <li>
-                                                <a href="#"{{-- {{ route('contact') }} --}}><span>Contactez-nous</span></a>
+                                                <a href="{{ route('contact') }}"><span>{{ __('message.layout.contactez_nous') }}</span></a>
                                             </li>
                                             <li class="menu-custom-children">
-                                                
-                                                Language: <select onchange="changeLanguage(this.value)">
-                                                    <option
-                                                        {{ session()->has('lang_code') ? (session()->get('lang_code') == 'fr' ? 'selected' : '') : '' }}
-                                                        value="fr">fr</option>
-                                                    <option
-                                                        {{ session()->has('lang_code') ? (session()->get('lang_code') == 'en' ? 'selected' : '') : '' }}
-                                                        value="en">eng</option>
-                                                </select>
+                                                <a href="#"><i class="fa fa-globe"></i></a>
+                                                <ul class="sub-menu" id="language-dropdown" style="top:64%;left:-10px">
+                                                    <li style="width:10%">
+                                                        <a href="{{ url('change-language/fr') }}" style="border: none"
+                                                            class="{{ session()->get('lang_code') == 'fr' ? 'active' : '' }}"><img src="{{asset('flags/france.png')}}" alt="fr" width="20px"></a>
+                                                    </li>
+                                                    <li style="width:10%">
+                                                        <a href="{{ url('change-language/en') }}" style="border: none"
+                                                            class="{{ session()->get('lang_code') == 'en' ? 'active' : '' }}"><img src="{{asset('flags/united-states.png')}}" alt="fr" width="20px"></a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                         </ul>
                                     </nav>
@@ -150,12 +150,12 @@
                     </div>
                     <div class="column one-fourth">
                         <aside class="widget_text widget widget_custom_html">
-                            <h4>Contactez-nous</h4>
+                            <h4>{{ __('message.layout.contactez_nous') }}</h4>
                             <div class="textwidget custom-html-widget">
                                 <p>
-                                    Disponible <br> lundi a samedi <br> 8h-19h (Mme Kada)
+                                    {!! __('message.layout.emploi') !!}
                                 </p>
-                                <h4>Tél : +212535463293<br>Gsm : +212661261803</h4>
+                                <h4>Fix : +212535463293<br>Gsm : +212661261803</h4>
                                 <p>
                                     <a href="#">alo.oui.call@gmail.com</a>
                                 </p>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="column one-fourth">
                         <aside class="widget_text widget widget_custom_html">
-                            <h4>Localisation</h4>
+                            <h4>{{ __('message.layout.local') }}</h4>
                             <div class="textwidget custom-html-widget">
                                 <p>
                                     Lot.Rizana
@@ -210,17 +210,16 @@
     <script src="{{ asset('landing/assets/js/animations/animations.js') }}"></script>
     <script src="{{ asset('landing/assets/js/translate3d.js') }}"></script>
     <script src="{{ asset('landing/assets/js/scripts.js') }}"></script>
-    <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
 
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         function changeLanguage(lang) {
-            window.location = '{{ url("change-language") }}/' + lang
+            window.location = '{{ url('change-language') }}/' + lang
         }
     </script>
-    <script></script>
+    <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
 </body>
 
 </html>
