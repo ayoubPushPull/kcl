@@ -25,8 +25,7 @@
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
-    <link rel='stylesheet'
-        href='https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic'>
     {{-- BOOTSTRAP --}}
     <!-- CSS -->
     <link rel='stylesheet' href="{{ asset('landing/assets/css/global.css') }}">
@@ -79,7 +78,7 @@
                                             </li>
 
                                             <li class="menu-custom-children">
-                                                <a href="#"><span>{{ __('message.layout.nos_services') }}</span></a>
+                                                <a href=""><span>{{ __('message.layout.nos_services') }}</span></a>
                                                 <ul class="sub-menu" >
                                                     <li><a href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
@@ -97,6 +96,9 @@
 
                                             <li>
                                                 <a href="{{ route('contact') }}"><span>{{ __('message.layout.contactez_nous') }}</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('recrute') }}"><span>{{ __('message.layout.recrute') }}</span></a>
                                             </li>
                                             <li class="menu-custom-children">
                                                 <a href="#"><i class="fa fa-globe"></i></a>
@@ -220,6 +222,7 @@
         }
     </script>
     <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
+    
 </body>
 
 </html>

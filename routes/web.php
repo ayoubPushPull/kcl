@@ -49,6 +49,9 @@ Route::group(['middleware'=>'Language'],function(){
     Route::get('/contact', function () {
         return view('general.contact');
     })->name('contact');
+    Route::get('/recrutement', function () {
+        return view('general.recrute');
+    })->name('recrute');
 
     Route::get('/services', function () {
         return view('general.services');
