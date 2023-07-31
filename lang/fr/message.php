@@ -1,5 +1,84 @@
 <?php
 return [
+    'accueil'=>[
+        'title'=>'Accueil',
+        'para_1'=>'Soyez Productif, Nous Gérons le Reste !
+        Externalisation des Tâches pour une Efficacité Maximale.',
+        'nos_service'=>"Nos services",
+        'centre_appel_1'=>'Centre',
+        'centre_appel_2'=>"D'appel",
+        'para_2'=>"Notre centre d'appel est doté d'une équipe de professionnels
+        hautement
+        qualifiés et dévoués, formés pour répondre aux besoins
+        spécifiques de nos
+        clients.",
+        'dev_1'=>"Développement d'applications",
+        'dev_2'=>'Web et Mobiles',
+        'para_3'=>'Notre équipe talentueuse de concepteurs et de développeurs
+        web et mobiles
+        est prête à transformer votre vision en réalité.',
+        'camera_1'=>"Caméras",
+        'camera_2'=>'de surveillance',
+        'para_4'=>"Lorsque vous choisissez notre service d'installation de
+        caméras de
+        surveillance, vous pouvez vous attendre à une expertise
+        professionnelle de
+        bout en bout.",
+        'data_1'=>"Traitement",
+        'data_2'=>'des bases de données',
+        'para_5'=>"Que vous ayez une petite entreprise ou une grande
+        organisation, nous
+        comprenons l'importance de disposer de données précises,
+        fiables et bien
+        organisées.",
+        'photo_video_1'=>'Photo',
+        'photo_video_2'=>'& vidéo',
+        'para_6'=>"Bienvenue à notre service de photos d'entreprise et de
+        réalisation de vidéos
+        institutionnelles et publicitaires ! Nous sommes là pour
+        capturer des
+        moments précieux et raconter des histoires visuelles
+        convaincantes pour
+        promouvoir votre entreprise ou votre marque.",
+
+        'para_7'=>'Lorsque vous travaillez avec nous, nous commençons par
+        comprendre vos
+        objectifs commerciaux, votre identité de marque et votre
+        public cible. En
+        nous basant sur ces informations, nous élaborons une
+        stratégie de gestion de
+        communauté sur mesure qui répond à vos besoins spécifiques.',
+        'nos_clients'=>'Nos clients',
+        'para_8'=>"Nous remercier KCL pour le traitement efficace de nos bases de
+        données ainsi que la création de notre application clients.
+        Cela nous a permis d'améliorer considérablement la qualité de
+        nos services et de répondre aux besoins de nos clients de
+        manière plus rapide et plus efficace. Votre professionnalisme,
+        votre expertise ainsi que votre excellent service client ont été
+        très appréciés tout au long de notre collaboration. Encore une
+        fois, merci pour votre excellent travail.",
+        'para_9'=>"En tant que client fidèle de KCL depuis plus de 10 ans, je ne
+        peux que recommander leurs services. Leur centre d'appel est
+        composé d'une équipe de professionnels hautement qualifiés et
+        dévoués, qui prennent le temps de comprendre les besoins
+        spécifiques de chaque client. Leur expertise en matière de
+        communication et de service client est inégalée, et leur
+        approche personnalisée a permis à notre entreprise de maintenir
+        une relation de confiance avec nos clients.",
+        'para_10'=>"Nous tenons à exprimer nos sincères remerciements à l'équipe de
+        KCL pour leur incroyable professionnalisme et service
+        exceptionnel. Ils ont installé des caméras chez moi et dans mon
+        magasin avec une rapidité et une expertise impressionnante. Leur
+        installation intelligente garantit la sécurité de nos biens et
+        leur présence rassure notre clientèle.
+        De plus, chaque fois que nous avons eu recours à leur
+        assistance, ils ont trouvé une solution à nos problèmes, ce qui
+        témoigne de leur expérience et de leur savoir-faire.
+        En bref, nous sommes ravis de notre collaboration avec KCL et
+        nous les recommandons vivement à tous ceux qui cherchent des
+        solutions de sécurité fiables et professionnelles.",
+        'savoir_plus'=>'Savoir plus',
+    ],
     'service_website' => [
         'title' => 'Création Web et Mobiles',
         'h1-1' => "DÉVELOPPEMENT ",
@@ -166,6 +245,7 @@ return [
         Contactez-nous dès aujourd'hui pour discuter de vos besoins en matière de gestion de communauté et découvrez comment nous pouvons vous aider à développer une présence en ligne forte et influente pour votre entreprise.<br>
         ",
     ],
+
     'layout'=>[
         'accueil'=>'Accueil',
         'propos_nous'=>'À propos de nous',
@@ -219,6 +299,127 @@ return [
         'motivation_placeholder'=>"Exemple copier coller contenu du cv..",
         'send'=>'Envoyer',
 
-    ]
+    ],
+    'service_centre'=>[
+        'title'=>"Centre D'appel",
+        'h1-1'=>"CENTRE ",
+        'h1-2'=>"D'APPEL",
+        'para_1'=>"Nous sommes fiers de
+        vous offrir une
+        expérience de service à la
+        clientèle de première classe grâce à nos 10 ans d'expérience
+        dans le
+        domaine. ",
+        'para_2'=>"Nous sommes une équipe
+        multilingue et
+        nous parlons couramment le
+        français, l'arabe et l'anglais, ce qui nous permet de
+        communiquer
+        efficacement avec nos clients du monde entier.",
+        'para_3'=>"Chez nous, nous
+        mettons l'accent sur
+        la
+        qualité du service clientèle
+        et nous nous engageons à fournir des solutions rapides et
+        efficaces
+        pour répondre à tous vos besoins. ",
+        'para_4'=>"Nous comprenons que chaque client est
+        unique et nous travaillons dur
+        pour comprendre vos besoins spécifiques afin de fournir une
+        expérience personnalisée et de qualité supérieure.",
+        'para_5'=>"Notre centre d'appel
+        est équipé de la
+        dernière technologie pour nous
+        permettre de fournir une assistance rapide et précise à nos
+        clients.
+        Nous sommes disponibles 24 heures sur 24, 7 jours sur 7 pour
+        répondre à toutes vos questions et préoccupations.",
+        'para_6'=>"Nous sommes fiers de
+        fournir un
+        service
+        clientèle de qualité
+        supérieure à tous nos clients et nous espérons avoir
+        l'opportunité
+        de travailler avec vous bientôt. N'hésitez pas à nous contacter
+        pour
+        toutes vos demandes et questions.",
+        'limited_text'=>"Notre entreprise, <strong>KADA CALLING LEADS
+        </strong>est un acteur
+        majeur dans le
+        domaine des centres d'appels depuis <strong>2014</strong> Nous avons
+        acquis une solide
+        réputation grâce à notre engagement envers l'excellence opérationnelle
+        et à notre capacité à offrir des solutions personnalisées à nos
+        clients.<br>
 
+        Notre centre d'appel est doté d'une équipe de professionnels hautement
+        qualifiés et dévoués, formés pour répondre aux besoins spécifiques de
+        nos clients.<br>
+        Nous comprenons l'importance de fournir un
+        service
+        clientèle exceptionnel pour garantir la satisfaction des utilisateurs
+        finaux.<br>
+        C'est pourquoi nous investissons dans la formation
+        continue de
+        nos agents afin de maintenir leurs compétences à jour et de renforcer
+        leur capacité à gérer diverses....",
+        'full_text'=>"Notre entreprise, <strong>KADA CALLING LEADS
+        </strong>est un acteur
+        majeur dans le
+        domaine des centres d'appels depuis <strong>2014</strong> Nous avons
+        acquis une solide
+        réputation grâce à notre engagement envers l'excellence opérationnelle
+        et à notre capacité à offrir des solutions personnalisées à nos
+        clients.<br>
+
+        Notre centre d'appel est doté d'une équipe de professionnels hautement
+        qualifiés et dévoués, formés pour répondre aux besoins spécifiques de
+        nos clients.<br>
+        Nous comprenons l'importance de fournir un
+        service
+        clientèle exceptionnel pour garantir la satisfaction des utilisateurs
+        finaux.<br>
+        C'est pourquoi nous investissons dans la formation
+        continue de
+        nos agents afin de maintenir leurs compétences à jour et de renforcer
+        leur capacité à gérer diverses situations.<br>
+        Nos services de centre d'appel comprennent la réception d'appels
+        entrants, la gestion des appels sortants, le support technique, la
+        gestion des plaintes, la prise de rendez-vous, la vente et bien
+        d'autres.<br>
+
+        Nous sommes en mesure de traiter un large éventail de demandes, que ce
+        soit par téléphone, par e-mail, par chat en ligne ou par le biais des
+        réseaux sociaux.<br>
+
+        <strong> En choisissant notre centre d'appel, vous bénéficierez des
+            avantages
+            suivants :</strong><br>
+
+        <strong>Expertise et professionnalisme :</strong> Notre équipe possède
+        une vaste
+        expérience dans le domaine des centres d'appels et est formée pour
+        représenter votre entreprise de manière professionnelle et amicale.<br>
+
+
+        <strong>Flexibilité :</strong> Nous comprenons que les besoins de votre
+        entreprise
+        peuvent varier.<br>
+        Nous sommes prêts à nous adapter rapidement
+        pour
+        répondre à vos exigences changeantes et à fournir des solutions sur
+        mesure.<br><strong>Technologie avancée :</strong> Notre centre d'appel
+        est équipé des
+        dernières technologies de communication, ce qui nous permet d'offrir
+        un service efficace et de qualité supérieure.<br> <strong>Amélioration
+            continue
+            :</strong> Nous sommes constamment à la recherche de moyens
+        d'améliorer nos
+        processus et nos performances.<br> Nous évaluons régulièrement notre
+        travail et sollicitons les commentaires de nos clients afin de
+        garantir une amélioration continue de nos services.<br> Nous serions
+        ravis de discuter plus en détail de vos besoins spécifiques et de la
+        manière dont notre centre d'appel peut vous aider à atteindre vos
+        objectifs. N'hésitez pas à nous contacter. "
+    ]
 ];

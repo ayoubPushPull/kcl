@@ -1,5 +1,64 @@
 <?php
-return ['service_website' => [
+return [
+    'accueil' => [
+        'title' => 'Home',
+        'para_1' => 'Be Productive, We Handle the Rest!
+        Outsourcing Tasks for Maximum Efficiency.',
+        'nos_service' => 'Our Services',
+        'centre_appel_1' => 'Call',
+        'centre_appel_2' => 'Center',
+        'para_2' => "Our call center is equipped with a team of highly
+        qualified and dedicated professionals, trained to meet the specific needs
+        of our clients.",
+        'dev_1' => 'Application',
+        'dev_2' => 'Development',
+        'para_3' => 'Our talented team of web and mobile designers and developers
+        is ready to turn your vision into reality.',
+        'camera_1' => 'Surveillance',
+        'camera_2' => 'Cameras',
+        'para_4' => 'When you choose our surveillance camera installation service,
+        you can expect end-to-end professional expertise.',
+        'data_1' => 'Database',
+        'data_2' => 'Processing',
+        'para_5' => "Whether you have a small business or a large
+        organization, we understand the importance of having accurate,
+        reliable, and well-organized data.",
+        'photo_video_1' => 'Photo',
+        'photo_video_2' => '& Video',
+        'para_6' => "Welcome to our corporate photo and video service!
+        We are here to capture precious moments and tell compelling visual stories
+        to promote your business or brand.",
+        'para_7' => "When you work with us, we start by
+        understanding your business goals, brand identity, and target audience.
+        Based on this information, we develop a customized community management
+        strategy that meets your specific needs.",
+        'nos_clients' => 'Our Clients',
+        'para_8' => "We thank KCL for the efficient processing of our databases
+        and the creation of our client application.
+        This has significantly improved the quality of our services and allowed us
+        to respond to our clients' needs more quickly and efficiently.
+        Your professionalism, expertise, and excellent customer service have been
+        greatly appreciated throughout our collaboration. Once again, thank you for
+        your outstanding work.",
+        'para_9' => "As a loyal client of KCL for over 10 years, I can only recommend
+        their services. Their call center is comprised of a team of highly skilled
+        and dedicated professionals who take the time to understand the specific
+        needs of each client. Their expertise in communication and customer service
+        is unparalleled, and their personalized approach has allowed our business
+        to maintain a trusted relationship with our clients.",
+        'para_10' => "We would like to express our sincere thanks to the KCL team for
+        their incredible professionalism and exceptional service. They installed
+        cameras at my home and in my store with impressive speed and expertise.
+        Their intelligent installation ensures the security of our property, and
+        their presence reassures our customers.
+        Additionally, every time we have needed their assistance, they have found
+        solutions to our problems, demonstrating their experience and know-how.
+        In short, we are delighted with our collaboration with KCL and highly
+        recommend them to anyone looking for reliable and professional security
+        solutions.",
+        'savoir_plus' => 'Learn More',
+    ],
+    'service_website' => [
         'title' => 'Web and Mobile Development',
         'h1-1' => 'WEB AND MOBILE',
         'h1-2' => 'APPLICATIONS DEVELOPMENT',
@@ -186,7 +245,21 @@ return ['service_website' => [
             'motivation_placeholder' => 'For example, copy and paste the content of your CV...',
             'send' => 'Send',
 
+        ],
+        'service_centre' => [
+            'title' => 'Call Center',
+            'h1-1' => 'CALL',
+            'h1-2' => 'CENTER',
+            'para_1' => "We are proud to offer you a first-class customer service experience thanks to our 10 years of experience in the field.",
+            'para_2' => "We are a multilingual team and we speak fluently in French, Arabic, and English, allowing us to communicate effectively with our clients worldwide.",
+            'para_3' => "At our center, we focus on the quality of customer service and are committed to providing quick and efficient solutions to meet all your needs.",
+            'para_4' => "We understand that each client is unique, and we work hard to understand your specific needs to provide a personalized and superior quality experience.",
+            'para_5' => "Our call center is equipped with the latest technology to enable us to provide fast and accurate assistance to our clients. We are available 24/7 to answer all your questions and concerns.",
+            'para_6' => "We are proud to provide superior customer service to all our clients, and we hope to have the opportunity to work with you soon. Feel free to contact us for all your inquiries and questions.",
+            'limited_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various....",
+            'full_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various situations.<br> Our call center services include inbound call reception, outbound call management, technical support, complaint handling, appointment scheduling, sales, and much more.<br> We are capable of handling a wide range of requests, whether by phone, email, online chat, or through social media.<br> <strong>By choosing our call center, you will benefit from the following advantages:</strong><br> <strong>Expertise and Professionalism:</strong> Our team has extensive experience in the call center industry and is trained to represent your company in a professional and friendly manner.<br> <strong>Flexibility:</strong> We understand that your business needs may vary.<br> We are ready to adapt quickly to meet your changing requirements and provide tailor-made solutions.<br> <strong>Advanced Technology:</strong> Our call center is equipped with the latest communication technologies, allowing us to offer efficient and high-quality service.<br> <strong>Continuous Improvement:</strong> We are constantly seeking ways to improve our processes and performance.<br> We regularly evaluate our work and seek feedback from our clients to ensure continuous improvement of our services.<br> We would be delighted to discuss in more detail your specific needs and how our call center can help you achieve your goals. Don't hesitate to contact us."
         ]
+
 
 
 

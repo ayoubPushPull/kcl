@@ -1,5 +1,5 @@
 @extends('layouts.landingLayout')
-@section('title', 'Accueil')
+@section('title', __('message.accueil.title'))
 
 @section('content')
     <div id="Content">
@@ -18,11 +18,8 @@
                                                     <span class="word_orange">LEADS</span>
                                                 </div> <br>
                                                 <div class="phrase_eng_fr">
-                                                    <span class="titre_landing_page">Soyez Productif, Nous Gérons le Reste !
-                                                        Externalisation des Tâches pour une Efficacité Maximale.</span>
-                                                    <span class="titre_landing_page "> Be Productive, We
-                                                        Handle the Rest! Outsourcing Tasks for Maximum Efficiency
-                                                    </span>
+                                                    <span class="titre_landing_page">{{__('message.accueil.para_1')}}</span>
+
                                                 </div>
                                             </h2>
                                         </div>
@@ -51,7 +48,7 @@
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr clearfix">
-                                            <h4 class="themecolor nos_service_landing">Nos services</h4>
+                                            <h4 class="themecolor nos_service_landing">{{__('message.accueil.nos_service')}}</h4>
                                             <div class="container_grid_landing">
                                                 <div class="grid_item_landing grid_item_left">
                                                     <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
@@ -61,19 +58,15 @@
                                                             background-position:left top;
                                                             padding:0 0 10px 80px;
                                                             ">
-                                                            <h4>Centre
-                                                                <br> D'appel
+                                                            <h4>{{__('message.accueil.centre_appel_1')}}
+                                                                <br> {{__('message.accueil.centre_appel_2')}}
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Notre centre d'appel est doté d'une équipe de professionnels
-                                                                hautement
-                                                                qualifiés et dévoués, formés pour répondre aux besoins
-                                                                spécifiques de nos
-                                                                clients.
+                                                                {{__('message.accueil.para_2')}}
                                                             </p>
                                                         </div>
                                                     </div>
@@ -81,77 +74,67 @@
                                                         <a class="custom-link-landing" href="{{ route("srv_centre_d'appel") }}" style="text-decoration: none"><span
                                                                 class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span></a>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
                                                     <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/dev.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                            <h4>Développement d'applications
-                                                                <br> Web et Mobiles
+                                                            <h4>{{__('message.accueil.dev_1')}}
+                                                                <br> {{__('message.accueil.dev_2')}}
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Notre équipe talentueuse de concepteurs et de développeurs
-                                                                web et mobiles
-                                                                est prête à transformer votre vision en réalité.
+                                                                {{__('message.accueil.para_3')}}
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_dev_web_mobile')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span></a>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing grid_item_left">
                                                     <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/camera.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                            <h4>Caméras
-                                                                <br> de surveillance
+                                                            <h4>{{__('message.accueil.camera_1')}}
+                                                                <br> {{__('message.accueil.camera_2')}}
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Lorsque vous choisissez notre service d'installation de
-                                                                caméras de
-                                                                surveillance, vous pouvez vous attendre à une expertise
-                                                                professionnelle de
-                                                                bout en bout.
-
+                                                                {{__('message.accueil.para_4')}}
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_camera_surveillance')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span></a>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
                                                     <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/database.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                            <h4>Traitement
-                                                                <br> des bases de données
+                                                            <h4>{{__('message.accueil.data_1')}}
+                                                                <br> {{__('message.accueil.data_2')}}
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Que vous ayez une petite entreprise ou une grande
-                                                                organisation, nous
-                                                                comprenons l'importance de disposer de données précises,
-                                                                fiables et bien
-                                                                organisées.
+                                                                {{__('message.accueil.para_5')}}
+
 
                                                             </p>
                                                         </div>
@@ -159,7 +142,7 @@
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_traitement')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -167,7 +150,7 @@
                                                     <div class="column mcb-column one column_column  column-margin-10px inside-grid-cells-first">
                                                         <div class="column_attr clearfix"
                                                             style=" background-image:url('{{ asset('landing/assets/content/images/video.png') }}'); background-repeat:no-repeat; background-position:left top; padding:0 0 10px 80px;">
-                                                            <h4>Photo <br>& vidéo
+                                                            <h4>{{__('message.accueil.photo_video_1')}} <br>{{__('message.accueil.photo_video_2')}}
 
                                                             </h4>
                                                         </div>
@@ -175,13 +158,8 @@
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Bienvenue à notre service de photos d'entreprise et de
-                                                                réalisation de vidéos
-                                                                institutionnelles et publicitaires ! Nous sommes là pour
-                                                                capturer des
-                                                                moments précieux et raconter des histoires visuelles
-                                                                convaincantes pour
-                                                                promouvoir votre entreprise ou votre marque.
+                                                                {{__('message.accueil.para_6')}}
+
 
                                                             </p>
                                                         </div>
@@ -189,7 +167,7 @@
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route('srv_photo_video')}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span></a>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span></a>
                                                     </div>
                                                 </div>
                                                 <div class="grid_item_landing">
@@ -204,20 +182,16 @@
                                                     <div class="column mcb-column one column_column inside-grid-cells-second">
                                                         <div class="column_attr clearfix">
                                                             <p>
-                                                                Lorsque vous travaillez avec nous, nous commençons par
-                                                                comprendre vos
-                                                                objectifs commerciaux, votre identité de marque et votre
-                                                                public cible. En
-                                                                nous basant sur ces informations, nous élaborons une
-                                                                stratégie de gestion de
-                                                                communauté sur mesure qui répond à vos besoins spécifiques.
+                                                                {{__('message.accueil.para_7')}}
+
+
                                                             </p>
                                                         </div>
                                                     </div>
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing" href="{{route("srv_community_manager")}}" style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
-                                                                class="button_label">Savoir plus</span></a>
+                                                                class="button_label">{{__('message.accueil.savoir_plus')}}</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -247,8 +221,7 @@
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column one column_column">
                                         <div class="column_attr clearfix align_center">
-                                            <h4 class="themecolor">Nos clients</h4>
-                                            <h3>Ce que nos clients ont dit à propos de nous</h3>
+                                            <h4 class="themecolor">{{__('message.accueil.nos_clients')}}</h4>
                                         </div>
                                     </div>
                                     <div class="column mcb-column one column_testimonials ">
@@ -259,15 +232,7 @@
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            Nous remercier KCL pour le traitement efficace de nos bases de
-                                                            données ainsi que la création de notre application clients.
-                                                            Cela nous a permis d'améliorer considérablement la qualité de
-                                                            nos services et de répondre aux besoins de nos clients de
-                                                            manière plus rapide et plus efficace. Votre professionnalisme,
-                                                            votre expertise ainsi que votre excellent service client ont été
-                                                            très appréciés tout au long de notre collaboration. Encore une
-                                                            fois, merci pour votre excellent travail.
-
+                                                            {{__('message.accueil.para_8')}}
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
@@ -283,14 +248,8 @@
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            En tant que client fidèle de KCL depuis plus de 10 ans, je ne
-                                                            peux que recommander leurs services. Leur centre d'appel est
-                                                            composé d'une équipe de professionnels hautement qualifiés et
-                                                            dévoués, qui prennent le temps de comprendre les besoins
-                                                            spécifiques de chaque client. Leur expertise en matière de
-                                                            communication et de service client est inégalée, et leur
-                                                            approche personnalisée a permis à notre entreprise de maintenir
-                                                            une relation de confiance avec nos clients.
+                                                            {{__('message.accueil.para_9')}}
+
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
@@ -306,19 +265,7 @@
                                                     </div>
                                                     <div class="bq_wrapper">
                                                         <blockquote>
-                                                            Nous tenons à exprimer nos sincères remerciements à l'équipe de
-                                                            KCL pour leur incroyable professionnalisme et service
-                                                            exceptionnel. Ils ont installé des caméras chez moi et dans mon
-                                                            magasin avec une rapidité et une expertise impressionnante. Leur
-                                                            installation intelligente garantit la sécurité de nos biens et
-                                                            leur présence rassure notre clientèle.
-                                                            De plus, chaque fois que nous avons eu recours à leur
-                                                            assistance, ils ont trouvé une solution à nos problèmes, ce qui
-                                                            témoigne de leur expérience et de leur savoir-faire.
-                                                            En bref, nous sommes ravis de notre collaboration avec KCL et
-                                                            nous les recommandons vivement à tous ceux qui cherchent des
-                                                            solutions de sécurité fiables et professionnelles.
-
+                                                            {{__('message.accueil.para_10')}}
                                                         </blockquote>
                                                     </div>
                                                     <div class="hr_dots">
