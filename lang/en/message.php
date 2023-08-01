@@ -143,7 +143,6 @@ return [
             We use advanced tools and proven methods to ensure the integrity and quality of your information. Whether you need to clean an existing database, merge data sets, or extract specific information, we have the necessary skills to assist you.<br>
             We also understand the importance of data privacy and security. Your information is treated with the utmost confidentiality, and we implement strict security measures to protect your data from any intrusion or loss.<br>By working with us, you will benefit from personalized service tailored to your specific needs. We listen to your requirements and strive to provide custom solutions that meet your expectations.<br>Feel free to contact us to discuss your database processing needs. We would be delighted to help you optimize your information and provide you with quality data that supports your growth and strategic decisions.',
     ],
-
     'service_photo&video' => [
         'title' => 'Photo and Video',
         'h1-1' => 'PHOTO',
@@ -168,7 +167,6 @@ return [
         Contact us today to discuss your corporate photography and video production needs. Let us help bring your vision to life and stand out from the competition with visually captivating and engaging imagery.<br>
         ",
     ],
-
     'service_manager' => [
         'title' => 'Community Manager',
         'h1-1' => "COMMUNITY ",
@@ -206,7 +204,7 @@ return [
         'emploi' => 'Available <br> Monday to Saturday <br> 8 am - 6 pm',
         'local' => 'Location'
     ],
-        'contact_form' => [
+    'contact_form' => [
         'title'=>"Contact us",
 
             'nom' => 'Name',
@@ -223,8 +221,8 @@ return [
             'pays_placeholder' => 'Country',
             'collab' => 'Collaboration',
             'send' => 'Send',
-        ],
-        'recrute' => [
+    ],
+    'recrute' => [
             'titre' => 'Recruitment',
             'h1' => 'Recruitment',
             'nom' => 'Name',
@@ -245,8 +243,8 @@ return [
             'motivation_placeholder' => 'For example, copy and paste the content of your CV...',
             'send' => 'Send',
 
-        ],
-        'service_centre' => [
+    ],
+    'service_centre' => [
             'title' => 'Call Center',
             'h1-1' => 'CALL',
             'h1-2' => 'CENTER',
@@ -258,9 +256,5 @@ return [
             'para_6' => "We are proud to provide superior customer service to all our clients, and we hope to have the opportunity to work with you soon. Feel free to contact us for all your inquiries and questions.",
             'limited_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various....",
             'full_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various situations.<br> Our call center services include inbound call reception, outbound call management, technical support, complaint handling, appointment scheduling, sales, and much more.<br> We are capable of handling a wide range of requests, whether by phone, email, online chat, or through social media.<br> <strong>By choosing our call center, you will benefit from the following advantages:</strong><br> <strong>Expertise and Professionalism:</strong> Our team has extensive experience in the call center industry and is trained to represent your company in a professional and friendly manner.<br> <strong>Flexibility:</strong> We understand that your business needs may vary.<br> We are ready to adapt quickly to meet your changing requirements and provide tailor-made solutions.<br> <strong>Advanced Technology:</strong> Our call center is equipped with the latest communication technologies, allowing us to offer efficient and high-quality service.<br> <strong>Continuous Improvement:</strong> We are constantly seeking ways to improve our processes and performance.<br> We regularly evaluate our work and seek feedback from our clients to ensure continuous improvement of our services.<br> We would be delighted to discuss in more detail your specific needs and how our call center can help you achieve your goals. Don't hesitate to contact us."
-        ]
-
-
-
-
+    ]
 ];

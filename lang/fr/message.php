@@ -245,10 +245,9 @@ return [
         Contactez-nous dès aujourd'hui pour discuter de vos besoins en matière de gestion de communauté et découvrez comment nous pouvons vous aider à développer une présence en ligne forte et influente pour votre entreprise.<br>
         ",
     ],
-
     'layout'=>[
         'accueil'=>'Accueil',
-        'propos_nous'=>'À propos de nous',
+        'propos_nous'=>'À propos',
         'nos_services'=>'Nos services',
         'centre_appel'=>"Centre D'appel",
         'website'=>'Création Web et Mobiles',

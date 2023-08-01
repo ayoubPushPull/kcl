@@ -1,5 +1,5 @@
 @extends('layouts.landingLayout')
-@section('title', 'À propos de nous')
+@section('title', 'À propos')
 
 
 @section('content')
@@ -13,7 +13,7 @@
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column two-third column_column">
                                         <div class="column_attr clearfix">
-                                            <h4 class="themecolor">À propos de nous</h4>
+                                            <h4 class="themecolor">À propos</h4>
                                             <h2>Nous favorisons une communication positive des destinataires avec votre
                                                 marque.(Mme Kada)</h2>
                                         </div>
@@ -160,10 +160,18 @@
                             <hr>
                             <div class="custom_container custom_text_left">
                                 <h1 class="custom_h1 title_div"> Vous bénéficierez des avantages suivants </h1>
-                                <div class="img1"><img class="scale-with-grid " src="{{ asset('landing/assets/content/images/about_images/about_left.png') }}">           </div>
-                                <div class="img2"><img class="scale-with-grid " src="{{ asset('landing/assets/content/images/about_images/about_right.png') }}">           </div>
-                                <div class="img3"><img class="scale-with-grid " src="{{ asset('landing/assets/content/images/about_images/about_left.png') }}">           </div>
-                                <div class="img4"><img class="scale-with-grid " src="{{ asset('landing/assets/content/images/about_images/about_right.png') }}">           </div>
+                                <div class="img1"><img class="scale-with-grid "
+                                        src="{{ asset('landing/assets/content/images/about_images/about_left.png') }}">
+                                </div>
+                                <div class="img2"><img class="scale-with-grid "
+                                        src="{{ asset('landing/assets/content/images/about_images/about_right.png') }}">
+                                </div>
+                                <div class="img3"><img class="scale-with-grid "
+                                        src="{{ asset('landing/assets/content/images/about_images/about_left.png') }}">
+                                </div>
+                                <div class="img4"><img class="scale-with-grid "
+                                        src="{{ asset('landing/assets/content/images/about_images/about_right.png') }}">
+                                </div>
 
                                 <div class="first_div">
                                     <h1 class="custom_h1">Expertise et professionnalisme</h1>
