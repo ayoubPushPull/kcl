@@ -80,7 +80,14 @@ margin-left: 1.4%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
     }
+    .titre_landing_page {
+        line-height: 1.5;
+    }
+
 }
+@media screen and (max-width: 956px) {
+
+  }
 /* END LANDING PAGE */
 /*---------------------------CENTRE D'APPEL-----------------------------*/
 .control_height_centre {

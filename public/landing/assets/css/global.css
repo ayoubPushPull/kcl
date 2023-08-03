@@ -2222,7 +2222,7 @@ blockquote {
 	margin: 0 0 35px 25px;
 	top: 15px;
 	position: relative;
-	background: url(../images/stripes/textline.png) repeat-y
+	background: url(../images/stripes/textlin.png) repeat-y
 }
 blockquote:before {
 	content: ""
@@ -19518,7 +19518,7 @@ a.action_button:hover{text-decoration:none}
 }
 /*------------------ayoub----------------------------*/
 /* CSS for the dropdown submenu */
-#menu-main-menu>li.menu-custom-children.submenu.last>ul {
+#menu-main-menu>li.menu-custom-children>.sub-menu.last>ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -19526,6 +19526,9 @@ a.action_button:hover{text-decoration:none}
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
+}
+#menu-main-menu>li.menu-custom-children>.sub-menu {
+    background-color: #ffffff;
 }
 
 #menu-main-menu>li.menu-custom-children:hover .sub-menu {
@@ -19547,12 +19550,12 @@ background-color: #ffffff;
 }
 @media screen and (max-width: 1239px) {
     #menu-main-menu>li.menu-custom-children .sub-menu li a {
-        color: #333;
+        color: #ffffff;
         text-decoration: none;
     }
 
     #menu-main-menu>li.menu-custom-children .sub-menu li a:hover {
     background-color: #191919;
-        color: #ffffff;
+        color: #ff7f00
     }
 }

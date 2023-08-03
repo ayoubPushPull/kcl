@@ -4,7 +4,7 @@
 <!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="js">
 <!--<![endif]-->
 
 <head>
@@ -79,7 +79,7 @@
 
                                             <li class="menu-custom-children">
                                                 <a href="" @readonly(true)><span>{{ __('message.layout.nos_services') }}</span></a>
-                                                <ul class="sub-menu" >
+                                                <ul class="sub-menu" style="" >
                                                     <li><a href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
                                                     <li><a href="{{ route('srv_dev_web_mobile') }}">{{ __('message.layout.website') }}
@@ -105,11 +105,11 @@
                                                 <ul class="sub-menu" id="language-dropdown" style="top:64%;left:-10px">
                                                     <li style="width:10%">
                                                         <a href="{{ url('change-language/fr') }}" style="border: none"
-                                                            class="{{ session()->get('lang_code') == 'fr' ? 'active' : '' }}"><img src="{{asset('flags/france.png')}}" alt="fr" width="20px"></a>
+                                                            class="{{ session()->get('lang_code') == 'fr' ? 'active' : '' }}"><img src="{{asset('landing/assets/images/flags/fr.png')}}" alt="fr" width="20px"></a>
                                                     </li>
                                                     <li style="width:10%">
                                                         <a href="{{ url('change-language/en') }}" style="border: none"
-                                                            class="{{ session()->get('lang_code') == 'en' ? 'active' : '' }}"><img src="{{asset('flags/united-states.png')}}" alt="fr" width="20px"></a>
+                                                            class="{{ session()->get('lang_code') == 'en' ? 'active' : '' }}"><img src="{{asset('landing/assets/images/flags/en.png')}}" alt="fr" width="20px"></a>
                                                     </li>
                                                 </ul>
                                             </li>
