@@ -68,35 +68,36 @@ function findFullText(element) {
 const readMoreLink = document.querySelector(".read-more");
 const limitedText = document.querySelector(".limited-text");
 const fullText = document.querySelector(".full-text");
-
-readMoreLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    if (
-        readMoreLink.textContent === "plus" ||
-        readMoreLink.textContent === "more"
-    ) {
-        if (readMoreLink.textContent === "plus") {
-            limitedText_camera.style.display = "none";
-            fullText.style.display = "inline";
-            readMoreLink.textContent = "moins";
-        } else if (readMoreLink.textContent === "more") {
-            limitedText_camera.style.display = "none";
-            fullText.style.display = "inline";
-            readMoreLink.textContent = "less";
+if (readMoreLink) {
+    readMoreLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (
+            readMoreLink.textContent === "plus" ||
+            readMoreLink.textContent === "more"
+        ) {
+            if (readMoreLink.textContent === "plus") {
+                limitedText_camera.style.display = "none";
+                fullText.style.display = "inline";
+                readMoreLink.textContent = "moins";
+            } else if (readMoreLink.textContent === "more") {
+                limitedText_camera.style.display = "none";
+                fullText.style.display = "inline";
+                readMoreLink.textContent = "less";
+            }
+            // For English, this would be "less"
+        } else if (
+            readMoreLink.textContent === "moins" ||
+            readMoreLink.textContent === "less"
+        ) {
+            if (readMoreLink.textContent === "less") {
+                limitedText_camera.style.display = "inline";
+                fullText.style.display = "none";
+                readMoreLink.textContent = "more"; // For English, this would be "more"
+            } else if (readMoreLink.textContent === "moins") {
+                limitedText_camera.style.display = "inline";
+                fullText.style.display = "none";
+                readMoreLink.textContent = "plus"; // For English, this would be "more"
+            }
         }
-        // For English, this would be "less"
-    } else if (
-        readMoreLink.textContent === "moins" ||
-        readMoreLink.textContent === "less"
-    ) {
-        if (readMoreLink.textContent === "less") {
-            limitedText_camera.style.display = "inline";
-            fullText.style.display = "none";
-            readMoreLink.textContent = "more"; // For English, this would be "more"
-        } else if (readMoreLink.textContent === "moins") {
-            limitedText_camera.style.display = "inline";
-            fullText.style.display = "none";
-            readMoreLink.textContent = "plus"; // For English, this would be "more"
-        }
-    }
-});
+    });
+}

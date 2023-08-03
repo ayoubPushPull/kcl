@@ -78,7 +78,7 @@
                                             </li>
 
                                             <li class="menu-custom-children">
-                                                <a href=""><span>{{ __('message.layout.nos_services') }}</span></a>
+                                                <a href="" @readonly(true)><span>{{ __('message.layout.nos_services') }}</span></a>
                                                 <ul class="sub-menu" >
                                                     <li><a href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
@@ -222,7 +222,7 @@
         }
     </script>
     <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
-    
+
 </body>
 
 </html>

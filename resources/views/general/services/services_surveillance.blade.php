@@ -85,29 +85,13 @@
 
                                                     </p>
                                                     <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
-
-
-
                                                 </div>
 
                                                 <div class="grid_item_camera undertext" tabindex="0">
                                                     <img src="{{ asset('services/kcl camera surveillance/kcl_camera_security_3.png') }}"
                                                         alt="kcl_call_center_1.png">
-                                                    <p class="paragraphe-inside-cell">
-                                                        <span class="limited-text-camera">
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            ....</span>
-                                                        <span class="full-text-camera" style="display: none;">
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                            (Mme kada)(Mme kada)(Mme kada)
-                                                        </span>
-                                                        <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
-                                                    </p>
+                                                        <p class="paragraphe-inside-cell arab_text">عندنا المعلمين الحرفة و الاتقان والامان </p>
+
                                                     <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
 
                                                 </div>

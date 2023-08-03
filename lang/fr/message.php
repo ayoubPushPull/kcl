@@ -205,8 +205,8 @@ return [
         'h1-2' => 'ET ',
         'h1-3' => 'VIDÉO',
         'text-1' => 'Faites briller votre entreprise sur le web !',
-        'text-2' => '(Mme kada)(Mme kada)(Mme kada)
-        (Mme kada)(Mme kada)(Mme kada)',
+        'limited_text_1' => 'Notre service de professionnels spécialisé dans la photographie...',
+        'full_text_1' => 'Notre service de professionnels spécialisé dans la photographie, la vidéo et le montage vous offre des solutions créatives et de haute qualité pour tous vos besoins visuels.',
         'limited-text-4' => "Bienvenue à notre service de photos d'entreprise et de réalisation de vidéos institutionnelles et publicitaires ! Nous sommes là pour capturer des moments précieux et raconter des histoires visuelles convaincantes pour promouvoir votre entreprise ou votre marque.<br>
         Dans le monde des affaires d'aujourd'hui, l'image joue un rôle crucial dans la réussite d'une entreprise. Que ce soit pour votre site web, vos brochures, vos publicités ou vos réseaux sociaux, des photos et des vidéos de qualité professionnelle sont essentielles pour attirer l'attention de votre public cible et communiquer efficacement votre message.<br>
         Notre équipe talentueuse de photographes et de vidéastes est spécialisée dans la capture d'images qui reflètent l'essence de votre entreprise. Que vous ayez besoin de portraits d'équipe, de photos de produits, d'images d'événements ou de vidéos promotionnelles percutantes, nous sommes prêts à transformer votre vision en réalité.<br>
@@ -420,5 +420,43 @@ return [
         ravis de discuter plus en détail de vos besoins spécifiques et de la
         manière dont notre centre d'appel peut vous aider à atteindre vos
         objectifs. N'hésitez pas à nous contacter. "
-    ]
+    ],
+    'about'=>[
+        'title'=>"À propos",
+        'text'=>"Dans le paysage commercial concurrentiel d'aujourd'hui, nous
+        offrons une large gamme de
+        services pour répondre aux divers besoins de nos clients.<br>
+        Dans notre entreprise, nous
+        sommes
+        fiers de notre capacité à fournir une vaste gamme de services spécialisés.<br>
+        Notre gamme complète de services comprend notamment le Centre
+        d'appel, le Traitement des
+        bases des données, la Création de sites web, les Services de Caméra de Surveillance et
+        Community Manager, Photo & Vidéo.<br>
+        Nous vous offrons des services à la carte pour une longue ou
+        courte durée.<br>
+        Délocaliser certains services, pour une bonne gestion de votre
+        entreprise
+        La délocalisation de certains services peut être une stratégie efficace pour une gestion
+        optimale de votre entreprise.<br>
+        Cela peut offrir plusieurs avantages, tels que la
+        réduction
+        des coûts de main-d'œuvre, l'accès à de nouveaux marchés, une meilleure flexibilité et
+        une
+        utilisation plus efficace des ressources.<br>
+        Fondée en 2014, notre entreprise a été créée par 3 Femmes
+        passionnées qui œuvraient à
+        satisfaire des exigences croissantes et à répondre aux besoins changeants des
+        entreprises.<br>
+        Notre culture commerciale dynamique reflète notre engagement
+        personnel envers nos
+        employés
+        et nos clients : respecter nos engagements envers eux, vivre par l'honnêteté et la
+        responsabilité du respect mutuel sont pour nous des principes fondamentaux essentiels au
+        succès commercial durable.<br>
+        La satisfaction personnelle est fondamentale chez nous car
+        elle
+        renforce continuellement notre engagement mutuel contribuant assurément bien au succès
+        communautaire que nous recherchons tous.<br>"
+    ],
 ];

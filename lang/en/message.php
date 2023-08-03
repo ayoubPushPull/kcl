@@ -149,8 +149,8 @@ return [
         'h1-2' => "AND ",
         'h1-3' => 'VIDEO',
         'text-1' => 'Showcase Your Business with Stunning Photos and Videos!',
-        'text-2' => '(Mrs. Kada)(Mrs. Kada)(Mrs. Kada)
-                    (Mrs. Kada)(Mrs. Kada)(Mrs. Kada)',
+        'limited_text_1' => 'Our team of professionals specialized in photography...',
+        'full_text_1' => 'Our team of professionals specialized in photography, video, and editing offers you creative and high-quality solutions for all your visual needs.',
         'limited-text-4' => "Welcome to our corporate photography and video production service! We are here to capture precious moments and tell compelling visual stories to promote your business or brand.<br>
         In today's business world, imagery plays a crucial role in a company's success. Whether it's for your website, brochures, advertisements, or social media, high-quality photos and videos are essential to grab the attention of your target audience and effectively convey your message.<br>
         Our talented team of photographers and videographers specializes in capturing images that reflect the essence of your business. Whether you need team portraits, product photos, event images, or impactful promotional videos, we are ready to turn your vision into reality.<br>
@@ -256,5 +256,18 @@ return [
             'para_6' => "We are proud to provide superior customer service to all our clients, and we hope to have the opportunity to work with you soon. Feel free to contact us for all your inquiries and questions.",
             'limited_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various....",
             'full_text' => "Our company, <strong>KADA CALLING LEADS</strong>, is a major player in the call center industry since <strong>2014</strong>. We have built a strong reputation through our commitment to operational excellence and our ability to offer personalized solutions to our clients.<br> Our call center is equipped with a team of highly skilled and dedicated professionals trained to meet the specific needs of our clients.<br> We understand the importance of providing exceptional customer service to ensure end-user satisfaction.<br> That's why we invest in continuous training for our agents to keep their skills up to date and enhance their ability to handle various situations.<br> Our call center services include inbound call reception, outbound call management, technical support, complaint handling, appointment scheduling, sales, and much more.<br> We are capable of handling a wide range of requests, whether by phone, email, online chat, or through social media.<br> <strong>By choosing our call center, you will benefit from the following advantages:</strong><br> <strong>Expertise and Professionalism:</strong> Our team has extensive experience in the call center industry and is trained to represent your company in a professional and friendly manner.<br> <strong>Flexibility:</strong> We understand that your business needs may vary.<br> We are ready to adapt quickly to meet your changing requirements and provide tailor-made solutions.<br> <strong>Advanced Technology:</strong> Our call center is equipped with the latest communication technologies, allowing us to offer efficient and high-quality service.<br> <strong>Continuous Improvement:</strong> We are constantly seeking ways to improve our processes and performance.<br> We regularly evaluate our work and seek feedback from our clients to ensure continuous improvement of our services.<br> We would be delighted to discuss in more detail your specific needs and how our call center can help you achieve your goals. Don't hesitate to contact us."
-    ]
+    ],
+    'about' => [
+        'title' => 'About Us',
+        'text' => "In today's competitive business landscape, we offer a wide range of services to meet the diverse needs of our clients.<br>
+        In our company, we take pride in our ability to provide a comprehensive range of specialized services.<br>
+        Our full range of services includes Call Center, Database Processing, Web Development, Surveillance Camera Services, Community Manager, Photo & Video.<br>
+        We offer you customizable services for long or short durations.<br>
+        Outsourcing certain services for effective business management.<br>
+        Outsourcing certain services can be an effective strategy for optimal business management.<br>
+        It can offer several advantages, such as reduced labor costs, access to new markets, better flexibility, and more efficient use of resources.<br>
+        Founded in 2014, our company was created by 3 passionate women who were working to meet growing requirements and respond to changing business needs.<br>
+        Our dynamic business culture reflects our personal commitment to our employees and clients: respecting our commitments to them, living by honesty and responsibility, and mutual respect are fundamental principles essential to lasting business success.<br>
+        Personal satisfaction is fundamental to us as it continually reinforces our mutual commitment, contributing positively to the community success we all seek.<br>",
+        ],
 ];

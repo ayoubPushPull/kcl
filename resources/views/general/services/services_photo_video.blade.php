@@ -84,9 +84,15 @@
                                                     <img src="{{ asset('services/kcl photo & video/kcl_photo_video_3.jpg') }}"
                                                         alt="kcl_photo_video_3.jpg">
                                                     <p class="paragraphe-inside-cell">
-                                                        {{__('message.service_photo&video.text-2')}}
+                                                        <span class="limited-text-camera">
+                                                            {{__('message.service_photo&video.limited_text_1')}}
+                                                        </span>
+                                                        <span class="full-text-camera" style="display: none;">
+                                                            {{__('message.service_photo&video.full_text_1')}}
 
-                                                
+                                                        </span>
+                                                        <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
+
 
                                                     </p>
                                                     <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
