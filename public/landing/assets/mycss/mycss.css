@@ -1,3 +1,6 @@
+.h1_page {
+    padding-top: 136px;
+}
 .frst_littre {
     font-weight: bold;
     font-size: 15px;
@@ -7,17 +10,16 @@
 }
 /* ABOUT PAGE */
 /* Custom CSS grid styles */
-.container_text_about_page{
-display: flex;
-flex-direction: column;
-border-left: #ff7f00 solid 5px;
-margin-left: 1.4%;
+.container_text_about_page {
+    display: flex;
+    flex-direction: column;
+    border-left: #ff7f00 solid 5px;
+    margin-left: 1.4%;
 }
-.text_about_page{
+.text_about_page {
     width: 80%;
     margin-left: 3%;
 }
-
 
 /* END ABOUT PAGE */
 /*  LANDING PAGE */
@@ -41,7 +43,7 @@ margin-left: 1.4%;
     font-weight: bolder;
 }
 .control_height {
-    height: 282px;
+    height: 205px;
 }
 .nos_service_landing {
     font-size: 32px;
@@ -83,15 +85,18 @@ margin-left: 1.4%;
     .titre_landing_page {
         line-height: 1.5;
     }
+    
+}
+@media (max-width: 767px) {
+    .h1_page {
+        padding-top: 36px;
+    }
 
 }
-@media screen and (max-width: 956px) {
-
-  }
 /* END LANDING PAGE */
 /*---------------------------CENTRE D'APPEL-----------------------------*/
 .control_height_centre {
-    height: 130px;
+    height: 116px;
 }
 .container_grid_centre {
     display: grid;
@@ -166,7 +171,6 @@ body:focus {
 .paragraphe-inside-cell {
     text-align: justify;
     color: rgb(0, 0, 0);
-
 }
 @media (max-width: 768px) {
     .container_grid_centre {
@@ -252,7 +256,6 @@ body:focus {
     margin-bottom: 60px;
 }
 
-
 .read-more-camera {
     color: #ff7f00;
 }
@@ -268,16 +271,18 @@ body:focus {
 .paragraphe-inside-cell {
     text-align: justify;
     color: rgb(0, 0, 0);
-
 }
-.arab_text{
+.arab_text {
     text-align: right;
     font-size: 20px;
 }
 /* For screen sizes from 1239px to 768px */
 @media (max-width: 1239px) {
     .container_grid_camera {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns layout for this screen size range */
+        grid-template-columns: repeat(
+            2,
+            1fr
+        ); /* 2 columns layout for this screen size range */
     }
 }
 @media (max-width: 768px) {
@@ -362,7 +367,6 @@ body:focus {
     margin-bottom: 60px;
 }
 
-
 .read-more-camera {
     color: #ff7f00;
 }
@@ -378,19 +382,21 @@ body:focus {
 .paragraphe-inside-cell {
     text-align: justify;
     color: rgb(0, 0, 0);
-
 }
-.arab_text{
+.arab_text {
     text-align: right;
     font-size: 20px;
 }
-.word_orange_website{
-    color:#ff7f00;
+.word_orange_website {
+    color: #ff7f00;
 }
 /* For screen sizes from 1239px to 768px */
 @media (max-width: 1239px) {
     .container_grid_website {
-        grid-template-columns: repeat(1, 1fr); /* 2 columns layout for this screen size range */
+        grid-template-columns: repeat(
+            1,
+            1fr
+        ); /* 2 columns layout for this screen size range */
     }
 }
 @media (max-width: 768px) {
@@ -418,7 +424,7 @@ body:focus {
 }
 /*---------------------------------END----------------------------------*/
 /*---------------------------------collaboration form-------------------*/
-
-
-
-
+/*-----------------------community----------------------*/
+.control_height_community{
+    height: 58px;
+}

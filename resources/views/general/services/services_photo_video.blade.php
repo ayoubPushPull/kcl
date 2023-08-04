@@ -7,15 +7,16 @@
         <div class="content_wrapper clearfix">
             <div class="sections_group">
                 <div class="entry-content">
-                    <div class="section mcb-section" style="padding-top:170px; padding-bottom:40px">
+                    <div class="section mcb-section h1_page">
                         <div class="section_wrapper mcb-section-inner ">
                             <div class="wrap mcb-wrap one valign-top clearfix control_height_centre">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column two-third column_column">
                                         <div class="column_attr clearfix">
                                             <h1>
-                                                <div class="calling_word" {{-- style="font-size: 36px;" --}}>{{__('message.service_photo&video.h1-1')}} <span
-                                                        class="word_orange">{{__('message.service_photo&video.h1-2')}}</span>{{__('message.service_photo&video.h1-3')}}
+                                                <div class="calling_word" {{-- style="font-size: 36px;" --}}>
+                                                    {{ __('message.service_photo&video.h1-1') }} <span
+                                                        class="word_orange">{{ __('message.service_photo&video.h1-2') }}</span>{{ __('message.service_photo&video.h1-3') }}
                                                 </div>
 
                                             </h1>
@@ -48,8 +49,10 @@
                                                 <div class="grid_item_camera undertext" tabindex="0">
                                                     <img src="{{ asset('services/kcl photo & video/kcl_photo_video.jpg') }}"
                                                         alt="kcl_photo_video.jpg">
-                                                    <p class="paragraphe-inside-cell arab_text">ديما حاضر ناظر منظور مشهور</p>
-                                                    <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
+                                                    <p class="paragraphe-inside-cell arab_text">ديما حاضر ناظر منظور مشهور
+                                                    </p>
+                                                    <a
+                                                        href="{{ route('contact') }} "class="contactez-link">{{ __('message.general.contact') }}</a>
                                                 </div>
 
                                                 <div class="grid_item_camera undertext" tabindex="0">
@@ -58,7 +61,8 @@
                                                     <p class="paragraphe-inside-cell arab_text">
                                                         كون زوين على كل الشاشات
                                                     </p>
-                                                    <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
+                                                    <a
+                                                        href="{{ route('contact') }} "class="contactez-link">{{ __('message.general.contact') }}</a>
 
                                                 </div>
 
@@ -69,12 +73,13 @@
                                                     <p class="paragraphe-inside-cell" style="">
 
 
-                                                            {{__('message.service_photo&video.text-1')}}
+                                                        {{ __('message.service_photo&video.text-1') }}
 
 
 
                                                     </p>
-                                                    <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
+                                                    <a
+                                                        href="{{ route('contact') }} "class="contactez-link">{{ __('message.general.contact') }}</a>
 
 
 
@@ -85,29 +90,32 @@
                                                         alt="kcl_photo_video_3.jpg">
                                                     <p class="paragraphe-inside-cell">
                                                         <span class="limited-text-camera">
-                                                            {{__('message.service_photo&video.limited_text_1')}}
+                                                            {{ __('message.service_photo&video.limited_text_1') }}
                                                         </span>
                                                         <span class="full-text-camera" style="display: none;">
-                                                            {{__('message.service_photo&video.full_text_1')}}
+                                                            {{ __('message.service_photo&video.full_text_1') }}
 
                                                         </span>
-                                                        <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
+                                                        <a class="read-more-camera"
+                                                            href="#">{{ __('message.general.plus') }}</a>
 
 
                                                     </p>
-                                                    <a href="{{ route('contact') }} "class="contactez-link">{{__('message.general.contact')}}</a>
+                                                    <a
+                                                        href="{{ route('contact') }} "class="contactez-link">{{ __('message.general.contact') }}</a>
 
                                                 </div>
 
                                             </div>
                                             <blockquote class="blockquote_camera">
                                                 <span class="limited-text-camera">
-                                                    {!!__('message.service_photo&video.limited-text-4')!!}
+                                                    {!! __('message.service_photo&video.limited-text-4') !!}
                                                 </span>
                                                 <span class="full-text-camera" style="display: none;">
-                                                    {!!__('message.service_photo&video.full-text-4')!!}
+                                                    {!! __('message.service_photo&video.full-text-4') !!}
                                                 </span>
-                                                <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
+                                                <a class="read-more-camera"
+                                                    href="#">{{ __('message.general.plus') }}</a>
                                             </blockquote>
 
                                         </div>
@@ -116,16 +124,6 @@
                             </div>
 
 
-
-                            <div class="wrap mcb-wrap one valign-top clearfix">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_divider ">
-                                        <hr class="no_line" style="margin:0 auto 30px">
-                                    </div>
-                                    <div class="column mcb-column one column_button">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

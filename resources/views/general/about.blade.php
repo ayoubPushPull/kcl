@@ -6,7 +6,7 @@
         <div class="content_wrapper clearfix">
             <div class="sections_group">
                 <div class="entry-content">
-                    <div class="section mcb-section" style="padding-top:170px; padding-bottom:40px">
+                    <div class="section mcb-section h1_page">
                         <div class="section_wrapper mcb-section-inner">
                             <div class="wrap mcb-wrap one valign-top clearfix">
                                 <div class="mcb-wrap-inner">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section mcb-section equal-height-wrap" style="padding-top:0px; padding-bottom:100px">
+                    <div class="section mcb-section equal-height-wrap" style="padding-top:0px; padding-bottom:50px">
                         <div class="section_wrapper mcb-section-inner">
                             <div class="content-wrapper container_text_about_page" style="color: black">
                                 <p class="text_about_page">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section mcb-section" style="padding-top:21px; padding-bottom:40px">
+                    <div class="section mcb-section" style="padding-top:21px; padding-bottom:10px">
                         <div class="section_wrapper mcb-section-inner">
                             <div class="wrap mcb-wrap one valign-top move-up clearfix" style="margin-top:-55px"
                                 data-mobile="no-up">

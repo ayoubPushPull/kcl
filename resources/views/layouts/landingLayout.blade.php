@@ -4,7 +4,7 @@
 <!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="js">
+<html class="no-js" lang="{{ __('message.layout.language_attribute') }}">
 <!--<![endif]-->
 
 <head>
@@ -14,18 +14,25 @@
     <title>@yield('title')</title>
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="description" content="{{ __('message.layout.description') }}">
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('landing/assets/content/images/favicon.ico') }}">
 
+    <link rel="preload" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
+    </noscript>
+
+    <!-- Chargement différé des polices non essentielles -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic">
     <!-- FONTS -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic'>
+
     {{-- BOOTSTRAP --}}
     <!-- CSS -->
     <link rel='stylesheet' href="{{ asset('landing/assets/css/global.css') }}">
@@ -71,51 +78,70 @@
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu menu-main">
                                             <li class="current-menu-item">
-                                                <a href="{{ route('landing') }}"><span>{{ __('message.layout.accueil') }}</span></a>
+                                                <a
+                                                    href="{{ route('landing') }}"><span>{{ __('message.layout.accueil') }}</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('about') }}"><span>{{ __('message.layout.propos_nous') }}</span></a>
+                                                <a
+                                                    href="{{ route('about') }}"><span>{{ __('message.layout.propos_nous') }}</span></a>
                                             </li>
 
                                             <li class="menu-custom-children">
-                                                <a href="" @readonly(true)><span>{{ __('message.layout.nos_services') }}</span></a>
-                                                <ul class="sub-menu" style="" >
-                                                    <li><a href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
+                                                <a href=""><span>{{ __('message.layout.nos_services') }}</span></a>
+                                                <ul class="sub-menu" style="">
+                                                    <li><a
+                                                            href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
                                                     <li><a href="{{ route('srv_dev_web_mobile') }}">{{ __('message.layout.website') }}
-                                                            </a></li>
+                                                        </a></li>
                                                     <li><a href="{{ route('srv_camera_surveillance') }}">{{ __('message.layout.camera') }}
-                                                            </a></li>
-                                                    <li><a href="{{ route('srv_traitement') }}">{{ __('message.layout.database') }}</a></li>
-                                                    <li><a href="{{ route('srv_photo_video') }}">{{ __('message.layout.photo_video') }}</a></li>
-                                                    <li><a href="{{ route('srv_community_manager') }}">{{ __('message.layout.manager') }}</a></li>
+                                                        </a></li>
+                                                    <li><a
+                                                            href="{{ route('srv_traitement') }}">{{ __('message.layout.database') }}</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="{{ route('srv_photo_video') }}">{{ __('message.layout.photo_video') }}</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="{{ route('srv_community_manager') }}">{{ __('message.layout.manager') }}</a>
+                                                    </li>
                                                     <!-- Add more services here as needed -->
                                                 </ul>
                                             </li>
 
 
                                             <li>
-                                                <a href="{{ route('contact') }}"><span>{{ __('message.layout.contactez_nous') }}</span></a>
+                                                <a
+                                                    href="{{ route('contact') }}"><span>{{ __('message.layout.contactez_nous') }}</span></a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('recrute') }}"><span>{{ __('message.layout.recrute') }}</span></a>
+                                                <a
+                                                    href="{{ route('recrute') }}"><span>{{ __('message.layout.recrute') }}</span></a>
                                             </li>
                                             <li class="menu-custom-children">
-                                                <a href="#"><i class="fa fa-globe"></i></a>
-                                                <ul class="sub-menu" id="language-dropdown" style="top:64%;left:-10px">
+                                                <a href="#" title="traduction"><i class="fa fa-globe"></i></a>
+                                                <ul class="sub-menu" id="language-dropdown"
+                                                    style="top:64%;left:-10px">
                                                     <li style="width:10%">
-                                                        <a href="{{ url('change-language/fr') }}" style="border: none"
-                                                            class="{{ session()->get('lang_code') == 'fr' ? 'active' : '' }}"><img src="{{asset('landing/assets/images/flags/fr.png')}}" alt="fr" width="20px"></a>
+                                                        <a href="{{ url('change-language/fr') }}"
+                                                            style="border: none"
+                                                            class="{{ session()->get('lang_code') == 'fr' ? 'active' : '' }}"><img
+                                                                src="{{ asset('landing/assets/images/flags/fr.png') }}"
+                                                                alt="fr" width="20px"></a>
                                                     </li>
                                                     <li style="width:10%">
-                                                        <a href="{{ url('change-language/en') }}" style="border: none"
-                                                            class="{{ session()->get('lang_code') == 'en' ? 'active' : '' }}"><img src="{{asset('landing/assets/images/flags/en.png')}}" alt="fr" width="20px"></a>
+                                                        <a href="{{ url('change-language/en') }}"
+                                                            style="border: none"
+                                                            class="{{ session()->get('lang_code') == 'en' ? 'active' : '' }}"><img
+                                                                src="{{ asset('landing/assets/images/flags/en.png') }}"
+                                                                alt="fr" width="20px"></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </nav>
-                                    <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+                                    <a class="responsive-menu-toggle" href="#" title="toggle"><i
+                                            class="icon-menu-fine"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -139,13 +165,13 @@
                                 </div>
                                 <hr class="no_line" style="margin: 0 auto 80px">
                                 <p style="font-size: 30px; line-height: 30px">
-                                    <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"><i
-                                            class="icon-facebook-circled"></i></a>
-                                    <a style="color: #1da1f2;" href="https://twitter.com/OuiAlo"><i
+                                    <a style="color: #4767aa;" href="https://www.Facebook.com/kadacallingleads"
+                                        title="facebook"><i class="icon-facebook-circled"></i></a>
+                                    <a style="color: #1da1f2;" href="https://twitter.com/OuiAlo" title="twitter"><i
                                             class="icon-twitter-circled"></i></a>
                                     <a style="color: #1da1f2;"
-                                        href="https://www.linkedin.com/in/bouamara-adele-5a53519b/"><i
-                                            class="icon-linkedin-circled"></i></a>
+                                        href="https://www.linkedin.com/in/bouamara-adele-5a53519b/"
+                                        title="linkedin"><i class="icon-linkedin-circled"></i></a>
                                 </p>
                             </div>
                         </aside>
@@ -182,10 +208,10 @@
             <div class="footer_copy">
                 <div class="container">
                     <div class="column one">
-                        <a id="back_to_top" class="button button_js" href="#"><i
+                        <a id="back_to_top" class="button button_js" href="#" title="back top arrow"><i
                                 class="icon-up-open-big"></i></a>
                         <div class="copyright">
-                            &copy; 2023 Kada Calling Leads by <a target="_blank" rel="nofollow"
+                            &copy; 2023 Kada Calling Leads by <a target="_blank"
                                 href="https://www.linkedin.com/in/ayoub-el-boukhari-35264a282/">El Boukhari Ayoub</a>
                         </div>
                     </div>
@@ -220,6 +246,29 @@
         function changeLanguage(lang) {
             window.location = '{{ url('change-language') }}/' + lang
         }
+    </script>
+    <script>
+
+        jQuery.event.special.touchstart = {
+        setup: function( _, ns, handle ) {
+            this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+    };
+    jQuery.event.special.touchmove = {
+        setup: function( _, ns, handle ) {
+            this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+    };
+    jQuery.event.special.wheel = {
+        setup: function( _, ns, handle ){
+            this.addEventListener("wheel", handle, { passive: true });
+        }
+    };
+    jQuery.event.special.mousewheel = {
+        setup: function( _, ns, handle ){
+            this.addEventListener("mousewheel", handle, { passive: true });
+        }
+    };
     </script>
     <script src="{{ asset('landing/assets/myjs/myjs.js') }}"></script>
 

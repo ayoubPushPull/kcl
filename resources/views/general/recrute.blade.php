@@ -25,7 +25,7 @@
 
                                             <hr class="no_line" style="margin:0 auto 30px">
                                             <div id="contactWrapper">
-                                                <form id="contactform" action="https://formspree.io/f/xnqknrdk"
+                                                <form id="contactform" action="https://formspree.io/f/xnqkjrra"
                                                     method="POST" >
                                                     <!-- One Second (1/2) Column -->
                                                     <div class="column one-second">

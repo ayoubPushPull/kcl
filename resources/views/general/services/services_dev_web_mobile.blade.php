@@ -7,19 +7,19 @@
         <div class="content_wrapper clearfix">
             <div class="sections_group">
                 <div class="entry-content">
-                    <div class="section mcb-section" style="padding-top:170px; padding-bottom:40px">
+                    <div class="section mcb-section h1_page">
                         <div class="section_wrapper mcb-section-inner ">
                             <div class="wrap mcb-wrap one valign-top clearfix control_height_centre">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column two-third column_column">
                                         <div class="column_attr clearfix">
-                                            <h2>
+                                            <h1>
                                                 <div class="calling_word" {{-- style="font-size: 36px;" --}}><span
                                                         class="word_orange_website">{{ __('message.service_website.h1-1') }}</span>
                                                     {{ __('message.service_website.h1-2') }}
                                                 </div>
 
-                                            </h2>
+                                            </h1>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,8 @@
                                                 <span class="full-text-camera" style="display: none;">
                                                     {!! __('message.service_website.full-text-4') !!}
                                                 </span>
-                                                <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
+                                                <a class="read-more-camera"
+                                                    href="#">{{ __('message.general.plus') }}</a>
                                             </blockquote>
 
                                         </div>
@@ -96,15 +97,7 @@
 
 
 
-                            <div class="wrap mcb-wrap one valign-top clearfix">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_divider ">
-                                        <hr class="no_line" style="margin:0 auto 30px">
-                                    </div>
-                                    <div class="column mcb-column one column_button">
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

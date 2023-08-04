@@ -7,21 +7,22 @@
         <div class="content_wrapper clearfix">
             <div class="sections_group">
                 <div class="entry-content">
-                    <div class="section mcb-section" style="padding-top:170px; padding-bottom:40px">
+                    <div class="section mcb-section h1_page">
                         <div class="section_wrapper mcb-section-inner ">
                             <div class="wrap mcb-wrap one valign-top clearfix control_height_centre">
                                 <div class="mcb-wrap-inner">
                                     <div class="column mcb-column two-third column_column">
                                         <div class="column_attr clearfix">
-                                            <h2>
-                                                <div class="calling_word" {{-- style="font-size: 36px;" --}}>{{ __('message.service_database.h1-1') }}
+                                            <h1>
+                                                <div class="calling_word" {{-- style="font-size: 36px;" --}}>
+                                                    {{ __('message.service_database.h1-1') }}
                                                     <span
                                                         class="word_orange_website">{{ __('message.service_database.h1-2') }}</span>{{ __('message.service_database.h1-3') }}
 
 
                                                 </div>
 
-                                            </h2>
+                                            </h1>
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +51,8 @@
                                                 <div class="grid_item_website undertext" tabindex="0">
                                                     <img src="{{ asset('services/kcl database/kcl_bdd_1.jpg') }}"
                                                         alt="kcl_bdd_1.jpg">
-                                                    <p class="paragraphe-inside-cell ">{{ __('message.service_database.text-1') }}
+                                                    <p class="paragraphe-inside-cell ">
+                                                        {{ __('message.service_database.text-1') }}
                                                     </p>
                                                     <a
                                                         href="{{ route('contact') }} "class="contactez-link">{{ __('message.general.contact') }}</a>
@@ -88,7 +90,8 @@
                                                 <span class="full-text-camera" style="display: none;">
                                                     {!! __('message.service_database.full-text-4') !!}
                                                 </span>
-                                                <a class="read-more-camera" href="#">{{__('message.general.plus')}}</a>
+                                                <a class="read-more-camera"
+                                                    href="#">{{ __('message.general.plus') }}</a>
                                             </blockquote>
 
                                         </div>
@@ -98,15 +101,7 @@
 
 
 
-                            <div class="wrap mcb-wrap one valign-top clearfix">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column one column_divider ">
-                                        <hr class="no_line" style="margin:0 auto 30px">
-                                    </div>
-                                    <div class="column mcb-column one column_button">
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

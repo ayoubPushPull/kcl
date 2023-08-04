@@ -202,7 +202,10 @@ return [
         'contactez_nous' => 'Contact us',
         'recrute'=>'Recruitment',
         'emploi' => 'Available <br> Monday to Saturday <br> 8 am - 6 pm',
-        'local' => 'Location'
+        'local' => 'Location',
+        'language_attribute'=>"en",
+        'description'=>"Your one-stop solution: Call Center, Database Processing, Web & Mobile App Development, Professional Photos & Videos, Surveillance Camera Installation.",
+
     ],
     'contact_form' => [
         'title'=>"Contact us",
@@ -215,12 +218,21 @@ return [
             'nom_entreprise_placeholder' => 'Enter Company Name',
             'num_tele' => 'Phone Number',
             'num_tele_placeholder' => 'Enter Phone Number',
+            'num_fix'=>'Numéro fix',
+            'num_fix_placeholder'=>"Saisir Numéro Fix",
             'email' => 'E-mail',
             'email_placeholder' => 'Enter Your E-mail',
             'pays' => 'Country',
             'pays_placeholder' => 'Country',
             'collab' => 'Collaboration',
+            'ineresse' => 'I am interested in the following service:',
             'send' => 'Send',
+'s1' => "Call Center",
+'s2' => 'Database Processing',
+'s3' => 'Website Development',
+'s4' => 'Surveillance Camera',
+'s5' => 'Community Manager',
+'s6' => 'Photo & Video',
     ],
     'recrute' => [
             'titre' => 'Recruitment',

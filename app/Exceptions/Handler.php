@@ -17,7 +17,25 @@ class Handler extends ExceptionHandler
         'password',
         'password_confirmation',
     ];
+ /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Throwable  $exception
+     * @return \Symfony\Component\HttpFoundation\Response
+     *
+     * @throws \Throwable
+     */
+    public function render($request, Throwable $exception)
+    {
+        // Handling specific HTTP status code errors
+        if ($exception instanceof HttpException) {
+            $statusCode = $exception->getStatusCode();
+            return response()->view("errors.$statusCode", [], $statusCode);
+        }
 
+        return parent::render($request, $exception);
+    }
     /**
      * Register the exception handling callbacks for the application.
      */

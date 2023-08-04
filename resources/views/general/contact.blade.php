@@ -25,7 +25,7 @@
 
                                             <hr class="no_line" style="margin:0 auto 30px">
                                             <div id="contactWrapper">
-                                                <form id="contactform" action="https://formspree.io/f/xnqknrdk"
+                                                <form id="contactform" action="https://formspree.io/f/meqbodkk"
                                                     method="POST">
                                                     <!-- One Second (1/2) Column -->
                                                     <div class="column one-second">
@@ -47,6 +47,12 @@
                                                             name="nom_entreprise" size="40" aria-required="true"
                                                             aria-invalid="false" />
                                                     </div>
+                                                    <div class="column one-second">
+                                                        <label for="">{{ __('message.contact_form.email') }}</label>
+                                                        <input placeholder="{{ __('message.contact_form.email_placeholder') }}" type="email"
+                                                            name="E-mail" size="40" aria-required="true"
+                                                            aria-invalid="false" />
+                                                    </div>
                                                     <!-- One Second (1/2) Column -->
                                                     <div class="column one-second">
                                                         <label for="">{{ __('message.contact_form.num_tele') }}</label>
@@ -55,11 +61,12 @@
                                                             aria-invalid="false" />
                                                     </div>
                                                     <div class="column one-second">
-                                                        <label for="">{{ __('message.contact_form.email') }}</label>
-                                                        <input placeholder="{{ __('message.contact_form.email_placeholder') }}" type="email"
-                                                            name="E-mail" size="40" aria-required="true"
+                                                        <label for="">{{ __('message.contact_form.num_fix') }}</label>
+                                                        <input placeholder="{{ __('message.contact_form.num_fix_placeholder') }}" type="text"
+                                                            name="num_fix" size="40" aria-required="true"
                                                             aria-invalid="false" />
                                                     </div>
+
                                                     <!-- One Second (1/2) Column -->
                                                     <div class="column one-second">
                                                         <label for="">{{ __('message.contact_form.pays') }}</label>
@@ -354,8 +361,19 @@
                                                             <option value="Zimbabwe">Zimbabwe</option>
                                                         </select>
                                                     </div>
-
-                                                    <div class="column one">
+                                                    <div class="column one-second">
+                                                        <label for="">{{ __('message.contact_form.ineresse') }}</label>
+                                                        <select name="je suis intéressé par le service de" required>
+                                                            <option value="" disabled selected hidden>Service</option>
+                                                            <option value="Centre d'appel">{{ __('message.contact_form.s1') }}</option>
+                                                            <option value="Traitement des bases des données">{{ __('message.contact_form.s2') }}</option>
+                                                            <option value="Création de sites">{{ __('message.contact_form.s3') }}</option>
+                                                            <option value="Caméra de surveillance">{{ __('message.contact_form.s4') }}</option>
+                                                            <option value="Community manager">{{ __('message.contact_form.s5') }}</option>
+                                                            <option value="Photo et vidéo">{{ __('message.contact_form.s6') }}</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="column one-second">
                                                         <label for="">{{ __('message.contact_form.collab') }}</label>
                                                         <textarea placeholder="Message" name="Collaboration " id="body" style="width:100%;" rows="10"
                                                             aria-invalid="false"></textarea>
