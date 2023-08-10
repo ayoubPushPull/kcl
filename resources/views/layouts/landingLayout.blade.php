@@ -42,6 +42,9 @@
     <link rel='stylesheet' href="{{ asset('landing/assets/mycss/mycss.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+
+
+
 </head>
 
 <body
@@ -74,19 +77,21 @@
                                             data-height="50" alt="kcl_logo">
                                     </a>
                                 </div>
+
                                 <div class="menu_wrapper">
                                     <nav id="menu">
                                         <ul id="menu-main-menu" class="menu menu-main">
-                                            <li class="current-menu-item">
+
+                                            <li   @if ($n == 1)class="current-menu-item"@endif>
                                                 <a
                                                     href="{{ route('landing') }}"><span>{{ __('message.layout.accueil') }}</span></a>
                                             </li>
-                                            <li>
+                                            <li  @if ($n == 2)class="current-menu-item"@endif>
                                                 <a
                                                     href="{{ route('about') }}"><span>{{ __('message.layout.propos_nous') }}</span></a>
                                             </li>
 
-                                            <li class="menu-custom-children">
+                                            <li class="menu-custom-children @if ($n == 7) current-menu-item @endif" >
                                                 <a href="#"><span>{{ __('message.layout.nos_services') }}</span></a>
                                                 <ul class="sub-menu" style="">
                                                     <li><a
@@ -110,11 +115,11 @@
                                             </li>
 
 
-                                            <li>
+                                            <li  @if ($n == 3)class="current-menu-item"@endif>
                                                 <a
                                                     href="{{ route('contact') }}"><span>{{ __('message.layout.contactez_nous') }}</span></a>
                                             </li>
-                                            <li>
+                                            <li  @if ($n == 4)class="current-menu-item"@endif >
                                                 <a
                                                     href="{{ route('recrute') }}"><span>{{ __('message.layout.recrute') }}</span></a>
                                             </li>
