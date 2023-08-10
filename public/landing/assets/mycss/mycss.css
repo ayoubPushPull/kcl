@@ -85,7 +85,7 @@
     .titre_landing_page {
         line-height: 1.5;
     }
-    
+
 }
 @media (max-width: 767px) {
     .h1_page {
@@ -428,3 +428,16 @@ body:focus {
 .control_height_community{
     height: 58px;
 }
+/*----------------------------forms-----------------------------------------*/
+.custom_section_form{
+    padding-top:100px;
+    padding-bottom:50px
+}
+@media screen and (max-width: 767px) {
+
+    .custom_section_form{
+        padding-top:0px;
+        padding-bottom:50px
+    }
+}
+/*---------------------------------END----------------------------------*/
