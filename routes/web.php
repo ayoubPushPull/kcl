@@ -1,8 +1,9 @@
 <?php
 
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\SitemapGenerator;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\languageController;
-use Spatie\Sitemap\SitemapGenerator;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +28,7 @@ Route::group(['middleware'=>'Language'],function(){
     })->name("srv_dev_web_mobile");
     Route::get("/services/centre_d'appel", function () {
         return view("general.services.services_centre_d'appel");
-    })->name("srv_centre_d'appel");
+    })->name("srv_centre_d_appel");
     Route::get("/services/community_manager", function () {
         return view("general.services.services_community_manager");
     })->name("srv_community_manager");
@@ -58,28 +59,17 @@ Route::group(['middleware'=>'Language'],function(){
         return view('general.services');
     })->name('services');
     Route::get('/change-language/{lang}', [languageController::class, 'changeLang'])->middleware('Language');
+    // Sitemap generation route
+    Route::get('/sitemap', function () {
+        $baseUrl = config('app.url');
+
+        SitemapGenerator::create($baseUrl)
+            ->writeToFile(public_path('sitemap.xml'));
+
+        return 'Sitemap generated successfully.';
+    });
 });
 
-Route::get('/sitemap', function () {
-    SitemapGenerator::create('https://centredappelkcl.com/')
-        ->hasCrawled(function (Sitemap $sitemap) {
-            // Add your URLs and their last modification date and priority
 
-            $sitemap->add('/services/camera_surveillance', now(), '0.9');
-            $sitemap->add('/services/dev_web_mobile', now(), '0.8');
-            $sitemap->add('/services/centre_d_appel', now(), '0.7');
-            $sitemap->add('/services/community_manager', now(), '0.7');
-            $sitemap->add('/services/photo_video', now(), '0.8');
-            $sitemap->add('/services/traitement', now(), '0.9');
 
-            $sitemap->add('/', now(), '1.0');
-            $sitemap->add('/about', now(), '0.8');
-            $sitemap->add('/contact', now(), '0.8');
-            $sitemap->add('/recrutement', now(), '0.7');
-            $sitemap->add('/services', now(), '0.9');
-        })
-        ->writeToFile(public_path('sitemap.xml'));
-
-    return response('Sitemap generated successfully.');
-});
 

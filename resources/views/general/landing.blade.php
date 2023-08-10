@@ -76,7 +76,7 @@
                                                     </div>
                                                     <div class="savoir_plus inside-grid-cells-third">
                                                         <a class="custom-link-landing"
-                                                            href="{{ route("srv_centre_d'appel") }}"
+                                                            href="{{ route("srv_centre_d_appel") }}"
                                                             style="text-decoration: none"><span class="button_icon"><i
                                                                     class="icon-right-open-mini"></i></span><span
                                                                 class="button_label">{{ __('message.accueil.savoir_plus') }}</span></a>

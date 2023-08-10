@@ -21,15 +21,15 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('landing/assets/content/images/favicon.ico') }}">
 
-    <link rel="preload" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700" as="style"
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
     </noscript>
 
     <!-- Chargement différé des polices non essentielles -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:100,300,400,400italic,500,600,700,700italic">
     <!-- FONTS -->
 
@@ -87,10 +87,10 @@
                                             </li>
 
                                             <li class="menu-custom-children">
-                                                <a href=""><span>{{ __('message.layout.nos_services') }}</span></a>
+                                                <a href="#"><span>{{ __('message.layout.nos_services') }}</span></a>
                                                 <ul class="sub-menu" style="">
                                                     <li><a
-                                                            href="{{ route("srv_centre_d'appel") }}">{{ __('message.layout.centre_appel') }}</a>
+                                                            href="{{ route("srv_centre_d_appel") }}">{{ __('message.layout.centre_appel') }}</a>
                                                     </li>
                                                     <li><a href="{{ route('srv_dev_web_mobile') }}">{{ __('message.layout.website') }}
                                                         </a></li>

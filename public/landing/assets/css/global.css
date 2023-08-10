@@ -2222,7 +2222,7 @@ blockquote {
 	margin: 0 0 35px 25px;
 	top: 15px;
 	position: relative;
-	background: url(../images/stripes/textlin.png) repeat-y
+	background: /*url(../images/stripes/textlin.png)*/ repeat-y
 }
 blockquote:before {
 	content: ""
