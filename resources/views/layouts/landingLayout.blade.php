@@ -123,8 +123,8 @@
                                                 <a
                                                     href="{{ route('recrute') }}"><span>{{ __('message.layout.recrute') }}</span></a>
                                             </li>
-                                            <li class="menu-custom-children">
-                                                <a href="#" title="traduction"><i class="fa fa-globe"></i></a>
+                                            <li class="menu-custom-children" style="margin-top: 1.2px">
+                                                <a href="#" title="traduction"><img alt=".." @if(session()->get('lang_code') == 'fr') src="{{ asset('landing/assets/images/flags/fr.png') }}" @elseif(session()->get('lang_code') == 'en') src="{{ asset('landing/assets/images/flags/en.png') }}" @endif/></a>
                                                 <ul class="sub-menu" id="language-dropdown"
                                                     style="top:64%;left:-10px">
                                                     <li style="width:10%">
